@@ -1,0 +1,1684 @@
+{
+  "value": [
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:00:00.249504Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:01:13.932820Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Resources/deployments/write",
+        "localizedValue": "Deployments"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Resources/deployments/res-1",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:02:26.248488Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:03:39.134678Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Resources/deployments/write",
+        "localizedValue": "Deployments"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Resources/deployments/res-3",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:04:52.090262Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:06:05.298256Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/start/res-5",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:07:18.073984Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:08:31.887485Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-7",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:09:44.837649Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:10:57.037246Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-9",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:12:10.040651Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:13:23.194462Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-11",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:14:36.857965Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:15:49.740915Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/start/res-13",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:17:02.448699Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:18:15.001735Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Resources/deployments/write",
+        "localizedValue": "Deployments"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Resources/deployments/res-15",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:19:28.762639Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:20:41.477154Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-17",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:21:54.852326Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:23:07.321401Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Resources/deployments/write",
+        "localizedValue": "Deployments"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Resources/deployments/res-19",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:24:20.871774Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Authorization/elevateAccess/action",
+        "localizedValue": "Elevate access"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Authorization/elevateAccess",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:25:33.126867Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Authorization/roleAssignments/write",
+        "localizedValue": "Create role assignment"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Authorization/roleAssignments/7f3a",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:26:46.574471Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Network/networkSecurityGroups/securityRules/write",
+        "localizedValue": "Create or Update Security Rule"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Network/networkSecurityGroups/nsg-web/securityRules/allow-rdp-any",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:27:59.976406Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/runCommand/action",
+        "localizedValue": "Run Command on Virtual Machine"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-sql01",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:29:12.897030Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Insights/diagnosticSettings/delete",
+        "localizedValue": "Delete diagnostic setting"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Insights/diagnosticSettings/send-to-sentinel",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "helpdesk2@contoso.example",
+      "eventTimestamp": "2026-10-15T08:30:25.093172Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Storage/storageAccounts/listKeys/action",
+        "localizedValue": "List Storage Account Keys"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Storage/storageAccounts/stbackups",
+      "httpRequest": {
+        "clientIpAddress": "102.89.33.17",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:31:38.339228Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:32:51.906975Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-27",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:34:04.450596Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:35:17.897888Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-29",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:36:30.457107Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:37:43.239717Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-31",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:38:56.914666Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:40:09.043804Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-33",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:41:22.173098Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:42:35.522002Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-35",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:43:48.030347Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:45:01.938017Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-37",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:46:14.221326Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:47:27.259456Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-39",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "intern@contoso.example",
+      "eventTimestamp": "2026-10-15T08:48:40.148280Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Error",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/delete",
+        "localizedValue": "Delete Virtual Machine"
+      },
+      "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.49",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "intern@contoso.example",
+      "eventTimestamp": "2026-10-15T08:49:53.688470Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Error",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/delete",
+        "localizedValue": "Delete Virtual Machine"
+      },
+      "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web02",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.49",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "intern@contoso.example",
+      "eventTimestamp": "2026-10-15T08:51:06.821676Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Error",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/delete",
+        "localizedValue": "Delete Virtual Machine"
+      },
+      "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web03",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.49",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "intern@contoso.example",
+      "eventTimestamp": "2026-10-15T08:52:19.910611Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Error",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/delete",
+        "localizedValue": "Delete Virtual Machine"
+      },
+      "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web04",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.49",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "intern@contoso.example",
+      "eventTimestamp": "2026-10-15T08:53:32.613305Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Error",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/delete",
+        "localizedValue": "Delete Virtual Machine"
+      },
+      "status": {
+        "value": "Failed",
+        "localizedValue": "Failed"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web05",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.49",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:54:45.833530Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-45",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:55:58.830582Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:57:11.000539Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/start/res-47",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:58:24.781387Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T08:59:37.190702Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/start/res-49",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:00:50.132038Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:02:03.503551Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-51",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:03:16.334677Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:04:29.134482Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-53",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:05:42.504271Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:06:55.135323Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-55",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:08:08.681720Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:09:21.574812Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-57",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:10:34.288146Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:11:47.705425Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/start/res-59",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:13:00.954657Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:14:13.557376Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Resources/deployments/write",
+        "localizedValue": "Deployments"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Resources/deployments/res-61",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:15:26.316474Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:16:39.796172Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-63",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:17:52.276812Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:19:05.517841Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-65",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:20:18.783905Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:21:31.666711Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/write",
+        "localizedValue": "Virtualmachines"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/res-67",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:22:44.765748Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Compute/virtualMachines/start/action",
+        "localizedValue": "Start Virtual Machine"
+      },
+      "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    },
+    {
+      "caller": "it-admin@contoso.example",
+      "eventTimestamp": "2026-10-15T09:23:57.347077Z",
+      "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+      },
+      "level": "Informational",
+      "operationName": {
+        "value": "Microsoft.Web/sites/restart/action",
+        "localizedValue": "Restart"
+      },
+      "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+      },
+      "resourceGroupName": "rg-prod",
+      "resourceId": "/subscriptions/0b1c2d3e-0000-4000-8000-00000000abcd/resourceGroups/rg-prod/providers/Microsoft.Web/sites/restart/res-69",
+      "httpRequest": {
+        "clientIpAddress": "198.51.100.44",
+        "method": "PUT"
+      },
+      "subscriptionId": "0b1c2d3e-0000-4000-8000-00000000abcd"
+    }
+  ]
+}

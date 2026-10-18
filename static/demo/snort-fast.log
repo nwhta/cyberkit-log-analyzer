@@ -1,0 +1,121 @@
+10/15-08:00:00.958700  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:52671 -> 93.184.216.34:443
+10/15-08:00:41.913987  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:58980 -> 10.0.0.5:1433
+10/15-08:01:22.077928  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:58090 -> 10.0.0.5:80
+10/15-08:02:03.535734  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:44098 -> 151.101.1.69:53
+10/15-08:02:44.158716  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:64918 -> 151.101.1.69:443
+10/15-08:03:25.158268  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:47812 -> 151.101.1.69:53
+10/15-08:04:06.588688  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:42547 -> 151.101.1.69:80
+10/15-08:04:47.879673  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:52236 -> 142.250.74.78:443
+10/15-08:05:28.206062  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:41189 -> 10.0.0.5:22
+10/15-08:06:09.017526  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:53890 -> 151.101.1.69:80
+10/15-08:06:50.425581  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:51945 -> 10.0.0.5:80
+10/15-08:07:31.391720  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:52842 -> 10.0.0.5:443
+10/15-08:08:12.333085  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:60704 -> 151.101.1.69:443
+10/15-08:08:53.624491  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:45171 -> 104.16.132.229:53
+10/15-08:09:34.715464  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:61358 -> 104.16.132.229:80
+10/15-08:10:15.397953  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:57038 -> 13.107.42.14:80
+10/15-08:10:56.316066  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:40622 -> 10.0.0.5:22
+10/15-08:11:37.513841  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:63901 -> 10.0.0.5:1433
+10/15-08:12:18.146504  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:52902 -> 104.16.132.229:443
+10/15-08:12:59.696854  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:45770 -> 10.0.0.5:443
+10/15-08:13:40.297031  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:49470 -> 142.250.74.78:443
+10/15-08:14:21.613916  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:51442 -> 142.250.74.78:53
+10/15-08:15:02.703934  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:40044 -> 142.250.74.78:80
+10/15-08:15:43.626912  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:46721 -> 151.101.1.69:443
+10/15-08:16:24.147888  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:63074 -> 93.184.216.34:53
+10/15-08:17:05.827655  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:59546 -> 10.0.0.5:1433
+10/15-08:17:46.256749  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:52213 -> 10.0.0.5:80
+10/15-08:18:27.034182  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:54952 -> 93.184.216.34:443
+10/15-08:19:08.057506  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:63461 -> 93.184.216.34:443
+10/15-08:19:49.146325  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:64709 -> 13.107.42.14:53
+10/15-08:20:30.321594  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:47462 -> 104.16.132.229:80
+10/15-08:21:11.533997  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:57435 -> 151.101.1.69:443
+10/15-08:21:52.654707  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:51808 -> 10.0.0.5:22
+10/15-08:22:33.042093  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:49436 -> 104.16.132.229:80
+10/15-08:23:14.087014  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:51533 -> 10.0.0.5:80
+10/15-08:23:55.954871  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:55598 -> 10.0.0.5:443
+10/15-08:24:36.935540  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:64573 -> 142.250.74.78:80
+10/15-08:25:17.622241  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:49763 -> 104.16.132.229:53
+10/15-08:25:58.267925  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:58670 -> 151.101.1.69:80
+10/15-08:26:39.940769  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:45292 -> 13.107.42.14:80
+10/15-08:27:20.100096  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:52873 -> 10.0.0.5:22
+10/15-08:28:01.342357  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:63368 -> 10.0.0.5:1433
+10/15-08:28:42.411589  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:42482 -> 13.107.42.14:443
+10/15-08:29:23.439040  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:45649 -> 10.0.0.5:443
+10/15-08:30:04.620791  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:63783 -> 13.107.42.14:443
+10/15-08:30:45.958410  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:52865 -> 104.16.132.229:443
+10/15-08:31:26.690473  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:40981 -> 142.250.74.78:80
+10/15-08:32:07.009249  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:42995 -> 151.101.1.69:443
+10/15-08:32:48.671113  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:46455 -> 93.184.216.34:53
+10/15-08:33:29.196060  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:54163 -> 10.0.0.5:1433
+10/15-08:34:10.755825  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:58966 -> 10.0.0.5:80
+10/15-08:34:51.076369  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:41144 -> 13.107.42.14:53
+10/15-08:35:32.565620  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:61700 -> 104.16.132.229:443
+10/15-08:36:13.080281  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:45368 -> 151.101.1.69:53
+10/15-08:36:54.817073  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:63259 -> 93.184.216.34:80
+10/15-08:37:35.087031  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:51438 -> 13.107.42.14:443
+10/15-08:38:16.506861  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:56261 -> 10.0.0.5:22
+10/15-08:38:57.852472  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:51267 -> 142.250.74.78:80
+10/15-08:39:38.697587  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:48852 -> 10.0.0.5:80
+10/15-08:40:19.863022  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:50703 -> 10.0.0.5:443
+this line was cut by log rotation and is broken on purpose
+10/15-08:41:00.428043  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:41019 -> 151.101.1.69:80
+10/15-08:41:41.201493  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:60179 -> 151.101.1.69:53
+10/15-08:42:22.260428  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:62679 -> 93.184.216.34:80
+10/15-08:43:03.622296  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:51063 -> 104.16.132.229:53
+10/15-08:43:44.993177  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:64374 -> 10.0.0.5:22
+10/15-08:44:25.964346  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:47423 -> 10.0.0.5:1433
+10/15-08:45:06.131697  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:45744 -> 151.101.1.69:443
+10/15-08:45:47.314070  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:61935 -> 10.0.0.5:443
+10/15-08:46:28.854532  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:55238 -> 142.250.74.78:443
+10/15-08:47:09.773916  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:64353 -> 142.250.74.78:53
+10/15-08:47:50.148276  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:55445 -> 93.184.216.34:80
+10/15-08:48:31.528844  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:61263 -> 151.101.1.69:443
+10/15-08:49:12.080273  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:57076 -> 142.250.74.78:53
+10/15-08:49:53.839589  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:60970 -> 10.0.0.5:1433
+10/15-08:50:34.305383  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:41886 -> 10.0.0.5:80
+10/15-08:51:15.394153  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:57534 -> 104.16.132.229:443
+10/15-08:51:56.764794  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:60217 -> 151.101.1.69:443
+10/15-08:52:37.726851  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:52479 -> 151.101.1.69:53
+10/15-08:53:18.892158  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:57749 -> 13.107.42.14:80
+10/15-08:53:59.866646  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:53317 -> 151.101.1.69:443
+10/15-08:54:40.578610  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:56988 -> 10.0.0.5:22
+10/15-08:55:21.518033  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:59461 -> 93.184.216.34:443
+10/15-08:56:02.502373  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:57925 -> 10.0.0.5:80
+10/15-08:56:43.248319  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:48673 -> 10.0.0.5:443
+10/15-08:57:24.106263  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:57795 -> 93.184.216.34:443
+10/15-08:58:05.659540  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:60519 -> 13.107.42.14:53
+10/15-08:58:46.010892  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:44701 -> 93.184.216.34:80
+10/15-08:59:27.284769  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:60637 -> 13.107.42.14:443
+10/15-09:00:08.184710  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:52981 -> 10.0.0.5:22
+10/15-09:00:49.756584  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:50619 -> 10.0.0.5:1433
+10/15-09:01:30.661347  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:41129 -> 104.16.132.229:443
+10/15-09:02:11.913600  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:46981 -> 10.0.0.5:443
+10/15-09:02:52.677441  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:48041 -> 151.101.1.69:443
+10/15-09:03:33.850386  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:62996 -> 13.107.42.14:443
+10/15-09:04:14.076936  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:63603 -> 104.16.132.229:80
+10/15-09:04:55.465594  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:64152 -> 151.101.1.69:443
+10/15-09:05:36.501647  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:64376 -> 93.184.216.34:80
+10/15-09:06:17.796624  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:50007 -> 10.0.0.5:1433
+10/15-09:06:58.695725  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:59260 -> 10.0.0.5:80
+10/15-09:07:39.872857  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:59156 -> 13.107.42.14:53
+10/15-09:08:20.755602  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:53407 -> 13.107.42.14:443
+10/15-09:09:01.996908  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:44846 -> 13.107.42.14:53
+10/15-09:09:42.335535  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:45909 -> 151.101.1.69:80
+10/15-09:10:23.923510  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:58572 -> 151.101.1.69:443
+10/15-09:11:04.934220  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:51137 -> 10.0.0.5:22
+10/15-09:11:45.121318  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:47379 -> 142.250.74.78:80
+10/15-09:12:26.760739  [Drop] [**] [1:2006446:13] ET WEB_SERVER Possible SQL Injection Attempt UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 203.0.113.66:53375 -> 10.0.0.5:80
+10/15-09:13:07.371996  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:45673 -> 10.0.0.5:443
+10/15-09:13:48.812343  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:46226 -> 104.16.132.229:80
+10/15-09:14:29.949486  [**] [1:2027758:2] ET DNS Query for .to TLD [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.0.33:45224 -> 13.107.42.14:53
+10/15-09:15:10.405810  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:56481 -> 142.250.74.78:80
+10/15-09:15:51.968073  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:62292 -> 151.101.1.69:80
+10/15-09:16:32.816156  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 45.155.205.12:44340 -> 10.0.0.5:22
+10/15-09:17:13.082924  [**] [1:2010935:3] ET SCAN Suspicious inbound to MSSQL port 1433 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 45.155.205.12:64737 -> 10.0.0.5:1433
+10/15-09:17:54.637492  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:43791 -> 104.16.132.229:443
+10/15-09:18:35.971982  [**] [1:2034647:3] ET EXPLOIT Apache log4j RCE Attempt (CVE-2021-44228) [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 203.0.113.66:52936 -> 10.0.0.5:443
+10/15-09:19:16.259062  [Drop] [**] [1:2024897:2] ET MALWARE Cobalt Strike Beacon Observed [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.0.33:61372 -> 142.250.74.78:443
+10/15-09:19:57.141829  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:58607 -> 151.101.1.69:443
+10/15-09:20:38.564062  [**] [1:2013028:7] ET POLICY curl User-Agent Outbound [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 10.0.0.24:58852 -> 93.184.216.34:80
+10/15-09:21:19.788109  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 198.51.100.40:61168 -> 93.184.216.34:443

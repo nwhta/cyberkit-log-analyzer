@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml" />
+    <title>Log Analyzer</title>
+  </head>
+
+  <body class="body">
+    <div id="topPanel" class="topPanel">
+      <aside class="sidePanel">
+        <div class="brand">
+          <div class="brandRow">
+            <div class="brandTitle">Log Analyzer</div>
+            <button
+              id="formatsButton"
+              class="formatsButton"
+              type="button"
+              aria-label="Supported log formats"
+              aria-expanded="false"
+            >formats</button>
+          </div>
+          <div class="formatLine">
+            <span id="demoBadge" class="demoBadge" hidden>Demo</span>
+            <div id="formatName" class="brandSubtitle">Format detected automatically</div>
+            <button
+              id="coverageButton"
+              class="coverageButton"
+              type="button"
+              aria-label="What this parser recognizes"
+              aria-expanded="false"
+              hidden
+            >i</button>
+          </div>
+        </div>
+
+        <label id="dropZone" class="dropZone" for="logInput">
+          <input type="file" id="logInput" class="visuallyHidden" />
+          <span class="dropZoneTitle">Choose log file</span>
+          <span id="fileName" class="dropZoneHint">or drop it here</span>
+        </label>
+
+        <div class="actionRow">
+          <button id="analyzeBtn" class="analyzeButton" type="button">Analyze</button>
+          <button
+            id="demoButton"
+            class="demoButton"
+            type="button"
+            aria-expanded="false"
+            title="Try a demo log"
+          >Demo</button>
+        </div>
+
+        <p class="privacyNote">Your file is analyzed in your browser and never uploaded.</p>
+
+        <!-- PUBLIC VERSION: feedback goes to GitHub Issues (no feedback server here);
+             "What's new" and "Privacy" pages exist only on the hosted site. -->
+        <div class="sideLinks">
+          <a
+            class="feedbackLink"
+            href="https://github.com/nwhta/cyberkit-log-analyzer/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+          >💬 Suggest an improvement</a>
+          <span class="sideLinkRow">
+            <a class="feedbackLink" href="/about">👤 About</a>
+            <span class="linkDot" aria-hidden="true">·</span>
+            <a
+              class="feedbackLink"
+              href="https://logs.cyberkit.me"
+              target="_blank"
+              rel="noopener noreferrer"
+            >🌐 Online version</a>
+          </span>
+        </div>
+
+        <a
+          id="donateLink"
+          class="donateCard"
+          href="https://ko-fi.com/J1G528T467"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="donateIcon" aria-hidden="true">☕</span>
+          <span class="donateText">
+            <span class="donateTitle">Enjoying it?</span>
+            <span class="donateAction">Buy me a coffee</span>
+          </span>
+        </a>
+      </aside>
+
+      <div id="filters" class="filters">
+        <div id="searchPanel" class="searchPanel">
+          <label class="panelTitle" for="searchInput">Search</label>
+          <input
+            type="search"
+            id="searchInput"
+            class="textInput"
+            placeholder="IP, user, text…"
+          />
+
+          <div class="panelTitle timeHeader">
+            <span id="timeTitle">Time range</span>
+            <span id="timeSwitch" class="miniSwitch" role="group" aria-label="Time zone">
+              <button id="timeLocal" class="miniSwitchButton" type="button" aria-pressed="true" title="Show times in your computer's time zone">Local</button>
+              <button id="timeUtc" class="miniSwitchButton" type="button" aria-pressed="false" title="Show times in UTC">UTC</button>
+            </span>
+          </div>
+          <label class="timeLabel"
+            >From <input type="datetime-local" step="1" id="timeFrom" class="textInput"
+          /></label>
+          <label class="timeLabel"
+            >To <input type="datetime-local" step="1" id="timeTo" class="textInput"
+          /></label>
+          <button id="timeReset" class="groupAction" type="button">Reset time</button>
+          <div id="timeNote" class="timeNote"></div>
+
+          <div class="counterRow">
+            <span id="logCounter" class="logCounter">0 of 0</span>
+            <button id="resetFilters" class="groupAction" type="button" hidden>Reset all filters</button>
+          </div>
+        </div>
+
+        <div id="facetFilters" class="securityFilters"></div>
+
+        <div id="sourcePanel" class="failedLogonPanel" hidden></div>
+      </div>
+    </div>
+
+    <div id="printReport" class="printReport" aria-hidden="true"></div>
+
+    <div id="infoPopover" class="infoPopover" popover="manual"></div>
+
+    <div id="viewBar" class="viewBar">
+      <div class="viewSwitch" role="group" aria-label="How to show events">
+        <button id="viewEvents" class="viewButton" type="button" aria-pressed="true">Events</button>
+        <button
+          id="viewPatterns"
+          class="viewButton"
+          type="button"
+          aria-pressed="false"
+          title="Group events with the same message. Numbers, IPs and IDs are replaced with placeholders."
+        >Patterns</button>
+      </div>
+      <span id="patternCount" class="patternCountText" hidden></span>
+      <select id="patternSort" class="textInput patternSort" aria-label="Sort patterns" hidden>
+        <option value="frequent">Most frequent first</option>
+        <option value="rare">Rarest first</option>
+      </select>
+      <span class="viewSpacer"></span>
+      <label class="sanitizeLabel" title="Replace IPs, user names, hosts, domains, emails, SIDs and secrets with labels like [IP-1]. Applies to the screen and to exports.">
+        <input id="sanitizeToggle" type="checkbox" />
+        Hide sensitive data
+      </label>
+      <button id="exportCsv" class="viewButton exportButton" type="button" title="Download what you see now as a CSV file (Excel, Google Sheets)">Export CSV</button>
+      <button id="exportPdf" class="viewButton exportButton" type="button" title="Open a printable report. Choose “Save as PDF” in the print window.">Export PDF</button>
+    </div>
+
+    <div id="logPanel" class="logPanel">
+      <div id="mainLogViewer" class="mainLogViewer"></div>
+      <div id="patternViewer" class="mainLogViewer patternViewer" hidden></div>
+      <div id="miniViewerContainer" class="miniViewerContainer">
+        <canvas id="miniViewer" class="miniViewer"></canvas>
+      </div>
+    </div>
+
+    <!-- PUBLIC VERSION: the "Was this analysis useful?" popup is removed (no feedback server). -->
+
+    <script type="module" src="/scriptsJS/logParse.js"></script>
+    <script type="module" src="/scriptsJS/search.js"></script>
+    <script type="module" src="/scriptsJS/fileInput.js"></script>
+  </body>
+</html>

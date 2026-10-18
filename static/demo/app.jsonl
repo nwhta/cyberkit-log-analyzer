@@ -1,0 +1,133 @@
+{"time": "2026-10-15T08:00:00Z", "level": "warn", "service": "api", "msg": "login failed", "duration_ms": 459, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:00:20Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 324}
+{"time": "2026-10-15T08:00:40Z", "level": "info", "service": "auth", "msg": "cache miss", "duration_ms": 219}
+{"time": "2026-10-15T08:01:00Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 335}
+{"time": "2026-10-15T08:01:20Z", "level": "error", "service": "api", "msg": "payment failed", "duration_ms": 653, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:01:40Z", "level": "warn", "service": "worker", "msg": "job finished", "duration_ms": 416}
+{"time": "2026-10-15T08:02:00Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 497}
+{"time": "2026-10-15T08:02:20Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 203}
+{"time": "2026-10-15T08:02:40Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 172}
+{"time": "2026-10-15T08:03:00Z", "level": "warn", "service": "worker", "msg": "login failed", "duration_ms": 788, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:03:20Z", "level": "warn", "service": "worker", "msg": "db query slow", "duration_ms": 120}
+{"time": "2026-10-15T08:03:40Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 280}
+{"time": "2026-10-15T08:04:00Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 231}
+{"time": "2026-10-15T08:04:20Z", "level": "info", "service": "auth", "msg": "db query slow", "duration_ms": 288}
+{"time": "2026-10-15T08:04:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 319}
+{"time": "2026-10-15T08:05:00Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 852}
+{"time": "2026-10-15T08:05:20Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 593}
+{"time": "2026-10-15T08:05:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 524}
+{"time": "2026-10-15T08:06:00Z", "level": "warn", "service": "auth", "msg": "login failed", "duration_ms": 715, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:06:20Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 292, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:06:40Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 552}
+{"time": "2026-10-15T08:07:00Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 873}
+{"time": "2026-10-15T08:07:20Z", "level": "debug", "service": "worker", "msg": "request completed", "duration_ms": 142}
+{"time": "2026-10-15T08:07:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 27}
+{"time": "2026-10-15T08:08:00Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 407}
+{"time": "2026-10-15T08:08:20Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 844}
+{"time": "2026-10-15T08:08:40Z", "level": "debug", "service": "auth", "msg": "db query slow", "duration_ms": 187}
+{"time": "2026-10-15T08:09:00Z", "level": "warn", "service": "auth", "msg": "login failed", "duration_ms": 557, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:09:20Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 184}
+{"time": "2026-10-15T08:09:40Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 732}
+{"time": "2026-10-15T08:10:00Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 365}
+{"time": "2026-10-15T08:10:20Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 23, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:10:40Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 840}
+{"time": "2026-10-15T08:11:00Z", "level": "debug", "service": "auth", "msg": "job finished", "duration_ms": 55}
+{"time": "2026-10-15T08:11:20Z", "level": "info", "service": "auth", "msg": "request completed", "duration_ms": 466}
+{"time": "2026-10-15T08:11:40Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 337}
+{"time": "2026-10-15T08:12:00Z", "level": "warn", "service": "worker", "msg": "login failed", "duration_ms": 787, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:12:20Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 213}
+{"time": "2026-10-15T08:12:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 52}
+{"time": "2026-10-15T08:13:00Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 737}
+{"time": "2026-10-15T08:13:20Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 534}
+{"time": "2026-10-15T08:13:40Z", "level": "error", "service": "auth", "msg": "payment failed", "duration_ms": 228, "client_ip": "198.51.100.42", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:14:00Z", "level": "info", "service": "auth", "msg": "cache miss", "duration_ms": 216}
+{"time": "2026-10-15T08:14:20Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 713}
+{"time": "2026-10-15T08:14:40Z", "level": "info", "service": "api", "msg": "job finished", "duration_ms": 149}
+{"time": "2026-10-15T08:15:00Z", "level": "warn", "service": "worker", "msg": "login failed", "duration_ms": 241, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:15:20Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 816}
+{"time": "2026-10-15T08:15:40Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 278}
+{"time": "2026-10-15T08:16:00Z", "level": "info", "service": "auth", "msg": "cache miss", "duration_ms": 84}
+{"time": "2026-10-15T08:16:20Z", "level": "error", "service": "auth", "msg": "payment failed", "duration_ms": 827, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time":"2026-10-15T08:20:00Z","level":"info","msg":"broken json line on purpose"
+{"time": "2026-10-15T08:16:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 756}
+{"time": "2026-10-15T08:17:00Z", "level": "error", "service": "api", "msg": "payment failed", "duration_ms": 478, "client_ip": "198.51.100.40", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:17:20Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 731}
+{"time": "2026-10-15T08:17:40Z", "level": "info", "service": "api", "msg": "job finished", "duration_ms": 710}
+{"time": "2026-10-15T08:18:00Z", "level": "warn", "service": "worker", "msg": "login failed", "duration_ms": 14, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:18:20Z", "level": "debug", "service": "api", "msg": "db query slow", "duration_ms": 376}
+{"time": "2026-10-15T08:18:40Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 326}
+{"time": "2026-10-15T08:19:00Z", "level": "info", "service": "auth", "msg": "db query slow", "duration_ms": 56}
+{"time": "2026-10-15T08:19:20Z", "level": "info", "service": "auth", "msg": "request completed", "duration_ms": 701}
+{"time": "2026-10-15T08:19:40Z", "level": "debug", "service": "auth", "msg": "job finished", "duration_ms": 796}
+{"time": "2026-10-15T08:20:00Z", "level": "debug", "service": "worker", "msg": "db query slow", "duration_ms": 119}
+{"time": "2026-10-15T08:20:20Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 598}
+{"time": "2026-10-15T08:20:40Z", "level": "warn", "service": "auth", "msg": "job finished", "duration_ms": 819}
+{"time": "2026-10-15T08:21:00Z", "level": "warn", "service": "worker", "msg": "login failed", "duration_ms": 710, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:21:20Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 747}
+{"time": "2026-10-15T08:21:40Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 515}
+{"time": "2026-10-15T08:22:00Z", "level": "info", "service": "auth", "msg": "request completed", "duration_ms": 553}
+{"time": "2026-10-15T08:22:20Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 481}
+{"time": "2026-10-15T08:22:40Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 283}
+{"time": "2026-10-15T08:23:00Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 508}
+{"time": "2026-10-15T08:23:20Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 653}
+{"time": "2026-10-15T08:23:40Z", "level": "warn", "service": "api", "msg": "cache miss", "duration_ms": 213}
+{"time": "2026-10-15T08:24:00Z", "level": "warn", "service": "api", "msg": "login failed", "duration_ms": 713, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:24:20Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 418}
+{"time": "2026-10-15T08:24:40Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 175}
+{"time": "2026-10-15T08:25:00Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 156}
+{"time": "2026-10-15T08:25:20Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 498}
+{"time": "2026-10-15T08:25:40Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 679}
+{"time": "2026-10-15T08:26:00Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 375}
+{"time": "2026-10-15T08:26:20Z", "level": "warn", "service": "auth", "msg": "request completed", "duration_ms": 540}
+{"time": "2026-10-15T08:26:40Z", "level": "warn", "service": "auth", "msg": "cache miss", "duration_ms": 555}
+{"time": "2026-10-15T08:27:00Z", "level": "warn", "service": "api", "msg": "login failed", "duration_ms": 841, "client_ip": "203.0.113.66", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}, "user": "admin"}
+{"time": "2026-10-15T08:27:20Z", "level": "info", "service": "auth", "msg": "request completed", "duration_ms": 460}
+{"time": "2026-10-15T08:27:40Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 232}
+{"time": "2026-10-15T08:28:00Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 513}
+{"time": "2026-10-15T08:28:20Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 125}
+{"time": "2026-10-15T08:28:40Z", "level": "info", "service": "auth", "msg": "db query slow", "duration_ms": 497}
+{"time": "2026-10-15T08:29:00Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 462}
+{"time": "2026-10-15T08:29:20Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 514, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:29:40Z", "level": "info", "service": "auth", "msg": "request completed", "duration_ms": 480}
+{"time": "2026-10-15T08:30:00Z", "level": "warn", "service": "auth", "msg": "login failed", "duration_ms": 723, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:30:20Z", "level": "info", "service": "api", "msg": "cache miss", "duration_ms": 131}
+{"time": "2026-10-15T08:30:40Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 725}
+{"time": "2026-10-15T08:31:00Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 47, "client_ip": "198.51.100.40", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:31:20Z", "level": "info", "service": "worker", "msg": "job finished", "duration_ms": 452}
+{"time": "2026-10-15T08:31:40Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 287}
+{"time": "2026-10-15T08:32:00Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 507}
+{"time": "2026-10-15T08:32:20Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 226}
+{"time": "2026-10-15T08:32:40Z", "level": "debug", "service": "api", "msg": "db query slow", "duration_ms": 292}
+{"time": "2026-10-15T08:33:00Z", "level": "warn", "service": "api", "msg": "login failed", "duration_ms": 688, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:33:20Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 17}
+{"time": "2026-10-15T08:33:40Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 100}
+{"time": "2026-10-15T08:34:00Z", "level": "warn", "service": "api", "msg": "request completed", "duration_ms": 852}
+{"time": "2026-10-15T08:34:20Z", "level": "warn", "service": "api", "msg": "job finished", "duration_ms": 103}
+{"time": "2026-10-15T08:34:40Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 56}
+{"time": "2026-10-15T08:35:00Z", "level": "info", "service": "worker", "msg": "request completed", "duration_ms": 686}
+{"time": "2026-10-15T08:35:20Z", "level": "debug", "service": "worker", "msg": "request completed", "duration_ms": 384}
+{"time": "2026-10-15T08:35:40Z", "level": "info", "service": "api", "msg": "request completed", "duration_ms": 428}
+{"time": "2026-10-15T08:36:00Z", "level": "warn", "service": "auth", "msg": "login failed", "duration_ms": 24, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:36:20Z", "level": "info", "service": "auth", "msg": "cache miss", "duration_ms": 271}
+{"time": "2026-10-15T08:36:40Z", "level": "debug", "service": "api", "msg": "request completed", "duration_ms": 468}
+{"time": "2026-10-15T08:37:00Z", "level": "info", "service": "worker", "msg": "db query slow", "duration_ms": 362}
+{"time": "2026-10-15T08:37:20Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 704}
+{"time": "2026-10-15T08:37:40Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 647}
+{"time": "2026-10-15T08:38:00Z", "level": "info", "service": "auth", "msg": "db query slow", "duration_ms": 336}
+{"time": "2026-10-15T08:38:20Z", "level": "info", "service": "worker", "msg": "cache miss", "duration_ms": 773}
+{"time": "2026-10-15T08:38:40Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 859}
+{"time": "2026-10-15T08:39:00Z", "level": "warn", "service": "api", "msg": "login failed", "duration_ms": 145, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:39:20Z", "level": "info", "service": "auth", "msg": "job finished", "duration_ms": 401}
+{"time": "2026-10-15T08:39:40Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 614}
+{"time": "2026-10-15T08:40:00Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 460}
+{"time": "2026-10-15T08:40:20Z", "level": "debug", "service": "worker", "msg": "db query slow", "duration_ms": 440}
+{"time": "2026-10-15T08:40:40Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 389, "client_ip": "198.51.100.42", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:41:00Z", "level": "error", "service": "auth", "msg": "payment failed", "duration_ms": 785, "client_ip": "198.51.100.40", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:41:20Z", "level": "info", "service": "api", "msg": "db query slow", "duration_ms": 281}
+{"time": "2026-10-15T08:41:40Z", "level": "warn", "service": "auth", "msg": "request completed", "duration_ms": 583}
+{"time": "2026-10-15T08:42:00Z", "level": "warn", "service": "auth", "msg": "login failed", "duration_ms": 34, "client_ip": "203.0.113.66", "user": "admin"}
+{"time": "2026-10-15T08:42:20Z", "level": "error", "service": "auth", "msg": "payment failed", "duration_ms": 832, "client_ip": "198.51.100.41", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"time": "2026-10-15T08:42:40Z", "level": "info", "service": "auth", "msg": "db query slow", "duration_ms": 299}
+{"time": "2026-10-15T08:43:00Z", "level": "error", "service": "worker", "msg": "payment failed", "duration_ms": 142, "client_ip": "198.51.100.40", "error": {"type": "TimeoutError", "stack": "TimeoutError: timeout\n    at pay (/app/pay.js:42:11)\n    at main (/app/index.js:7:3)"}}
+{"log": "panic: runtime error: index out of range\n", "stream": "stderr", "time": "2026-10-15T08:45:00.000000000Z"}
+{"level": 50, "time": 1792052700000, "name": "billing", "msg": "pino-style numeric level 50 = error"}

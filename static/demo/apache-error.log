@@ -1,0 +1,67 @@
+[Thu Oct 15 08:00:30 2026] [error] [client 198.51.100.41] File does not exist: /var/www/html/favicon.ico
+[Thu Oct 15 08:01:00.307043 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 08:03:00.641626 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 08:05:00.430758 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 08:07:00.868343 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.58:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+PHP Stack trace:
+  #0 {main}
+[Thu Oct 15 08:09:00.451032 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 08:11:00.879614 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 08:13:00.298128 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 08:15:00.775259 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 08:17:00.029319 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 08:19:00.662132 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 08:21:00.746874 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 08:23:00.339164 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.43:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 08:25:00.948979 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 08:27:00.569714 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 08:29:00.000790 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 08:31:00.217106 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 08:33:00.067088 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 08:35:00.449285 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 08:37:00.270364 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 08:39:00.581146 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.46:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 08:41:00.939719 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 08:43:00.536382 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 08:45:00.638688 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 08:47:00.869089 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 08:49:00.441382 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 08:51:00.963681 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 08:53:00.073799 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 08:55:00.120285 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.58:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 08:57:00.742517 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 08:59:00.746796 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 09:01:00.984390 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 09:03:00.323585 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 09:05:00.067723 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 09:07:00.106912 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 09:09:00.982857 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 09:11:00.365444 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.47:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 09:13:00.648283 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 09:15:00.794209 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 09:17:00.052088 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 09:19:00.368151 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 09:21:00.599314 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 09:23:00.895092 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 09:25:00.844232 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 09:27:00.993490 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.42:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 09:29:00.576807 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 09:31:00.654298 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 09:33:00.297210 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 09:35:00.633092 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 09:37:00.261736 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 09:39:00.828350 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 09:41:00.187614 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 09:43:00.509261 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.47:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 09:45:00.225961 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 09:47:00.677122 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 09:49:00.794249 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 09:51:00.593710 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Thu Oct 15 09:53:00.895650 2026] [core:error] [pid 2211:tid 140031] [client 203.0.113.66:51234] AH00126: Invalid URI in request GET /../../../../etc/passwd HTTP/1.1
+[Thu Oct 15 09:55:00.437856 2026] [authz_core:error] [pid 2211:tid 140032] [client 203.0.113.66:51240] AH01630: client denied by server configuration: /var/www/html/server-status
+[Thu Oct 15 09:57:00.342328 2026] [:error] [pid 2212:tid 140033] [client 45.155.205.12:40022] [client 45.155.205.12] ModSecurity: Access denied with code 403 (phase 2). detected SQLi using libinjection. [file "/etc/modsecurity/crs/REQUEST-942-APPLICATION-ATTACK-SQLI.conf"] [line "65"] [id "942100"] [msg "SQL Injection Attack Detected via libinjection"] [severity "CRITICAL"] [hostname "example.com"] [uri "/products.php"] [unique_id "ZxAbCd"]
+[Thu Oct 15 09:59:00.148012 2026] [php:error] [pid 2213:tid 140034] [client 198.51.100.48:5000] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/db.php:12
+[Thu Oct 15 10:01:00.483916 2026] [proxy:error] [pid 2214:tid 140035] (111)Connection refused: AH00957: http: attempt to connect to 127.0.0.1:8080 (127.0.0.1) failed
+[Thu Oct 15 10:03:00.278419 2026] [auth_basic:error] [pid 2215:tid 140036] [client 203.0.113.66:51300] AH01618: user admin not found: /admin
+[Thu Oct 15 10:05:00.012124 2026] [ssl:warn] [pid 2216:tid 140037] AH01909: example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 15 10:07:00.610502 2026] [mpm_event:notice] [pid 2200:tid 140001] AH00489: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations

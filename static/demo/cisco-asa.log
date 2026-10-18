@@ -1,0 +1,171 @@
+Oct 15 2026 08:00:00 fw01 : %ASA-6-302013: Built outbound TCP connection 1001 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.37/61712 (10.0.0.37/63994)
+Oct 15 2026 08:00:17 fw01 : %ASA-6-302014: Teardown TCP connection 1001 for outside:142.250.74.78/443 to inside:10.0.0.25/62799 duration 0:00:10 bytes 44742 TCP FINs
+Oct 15 2026 08:00:34 fw01 : %ASA-6-302013: Built outbound TCP connection 1003 for outside:13.107.42.14/443 (151.101.1.69/443) to inside:10.0.0.36/62927 (10.0.0.36/58352)
+Oct 15 2026 08:00:51 fw01 : %ASA-6-302014: Teardown TCP connection 1003 for outside:93.184.216.34/443 to inside:10.0.0.30/44043 duration 0:00:48 bytes 22373 TCP FINs
+Oct 15 2026 08:01:08 fw01 : %ASA-6-302013: Built outbound TCP connection 1005 for outside:142.250.74.78/443 (151.101.1.69/443) to inside:10.0.0.36/49077 (10.0.0.36/55836)
+Oct 15 2026 08:01:25 fw01 : %ASA-6-302014: Teardown TCP connection 1005 for outside:151.101.1.69/443 to inside:10.0.0.37/57570 duration 0:00:25 bytes 12981 TCP FINs
+Oct 15 2026 08:01:42 fw01 : %ASA-6-302013: Built outbound TCP connection 1007 for outside:93.184.216.34/443 (93.184.216.34/443) to inside:10.0.0.32/58622 (10.0.0.32/63697)
+Oct 15 2026 08:01:59 fw01 : %ASA-6-302014: Teardown TCP connection 1007 for outside:13.107.42.14/443 to inside:10.0.0.39/48583 duration 0:00:10 bytes 57093 TCP FINs
+Oct 15 2026 08:02:16 fw01 : %ASA-6-302013: Built outbound TCP connection 1009 for outside:142.250.74.78/443 (93.184.216.34/443) to inside:10.0.0.33/44255 (10.0.0.33/63603)
+Oct 15 2026 08:02:33 fw01 : %ASA-6-302014: Teardown TCP connection 1009 for outside:104.16.132.229/443 to inside:10.0.0.26/56361 duration 0:00:12 bytes 9320 TCP FINs
+Oct 15 2026 08:02:50 fw01 : %ASA-6-302013: Built outbound TCP connection 1011 for outside:93.184.216.34/443 (151.101.1.69/443) to inside:10.0.0.20/54049 (10.0.0.20/56496)
+Oct 15 2026 08:03:07 fw01 : %ASA-6-302014: Teardown TCP connection 1011 for outside:93.184.216.34/443 to inside:10.0.0.31/50133 duration 0:00:58 bytes 33755 TCP FINs
+Oct 15 2026 08:03:24 fw01 : %ASA-6-302013: Built outbound TCP connection 1013 for outside:13.107.42.14/443 (93.184.216.34/443) to inside:10.0.0.22/43823 (10.0.0.22/59234)
+Oct 15 2026 08:03:41 fw01 : %ASA-6-302014: Teardown TCP connection 1013 for outside:142.250.74.78/443 to inside:10.0.0.29/47947 duration 0:00:28 bytes 53547 TCP FINs
+Oct 15 2026 08:03:58 fw01 : %ASA-6-302013: Built outbound TCP connection 1015 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.35/60308 (10.0.0.35/52993)
+Oct 15 2026 08:04:15 fw01 : %ASA-6-302014: Teardown TCP connection 1015 for outside:104.16.132.229/443 to inside:10.0.0.23/59139 duration 0:00:55 bytes 74218 TCP FINs
+Oct 15 2026 08:04:32 fw01 : %ASA-6-302013: Built outbound TCP connection 1017 for outside:13.107.42.14/443 (142.250.74.78/443) to inside:10.0.0.37/51988 (10.0.0.37/43360)
+Oct 15 2026 08:04:49 fw01 : %ASA-6-302014: Teardown TCP connection 1017 for outside:142.250.74.78/443 to inside:10.0.0.32/55854 duration 0:00:22 bytes 58535 TCP FINs
+Oct 15 2026 08:05:06 fw01 : %ASA-6-302013: Built outbound TCP connection 1019 for outside:104.16.132.229/443 (151.101.1.69/443) to inside:10.0.0.35/64513 (10.0.0.35/57263)
+Oct 15 2026 08:05:23 fw01 : %ASA-6-302014: Teardown TCP connection 1019 for outside:142.250.74.78/443 to inside:10.0.0.30/57999 duration 0:00:38 bytes 42460 TCP FINs
+Oct 15 2026 08:05:40 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/46074 dst inside:10.0.0.5/21 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:05:57 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/45078 dst inside:10.0.0.5/22 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:06:14 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/48760 dst inside:10.0.0.5/23 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:06:31 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/51495 dst inside:10.0.0.5/25 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:06:48 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/60738 dst inside:10.0.0.5/80 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:07:05 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/50434 dst inside:10.0.0.5/110 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:07:22 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/62750 dst inside:10.0.0.5/135 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:07:39 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/41302 dst inside:10.0.0.5/139 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:07:56 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/55461 dst inside:10.0.0.5/143 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:08:13 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/49596 dst inside:10.0.0.5/443 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:08:30 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/57792 dst inside:10.0.0.5/445 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:08:47 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/40682 dst inside:10.0.0.5/1433 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:09:04 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/63663 dst inside:10.0.0.5/3306 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:09:21 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/54908 dst inside:10.0.0.5/3389 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:09:38 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/46309 dst inside:10.0.0.5/5432 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:09:55 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/42929 dst inside:10.0.0.5/5900 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:10:12 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/59415 dst inside:10.0.0.5/6379 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:10:29 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/48691 dst inside:10.0.0.5/8080 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:10:46 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/59092 dst inside:10.0.0.5/9200 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:11:03 fw01 : %ASA-4-106023: Deny tcp src outside:45.155.205.12/52843 dst inside:10.0.0.5/27017 by access-group "outside_in" [0x0, 0x0]
+Oct 15 2026 08:11:20 fw01 : %ASA-6-302013: Built outbound TCP connection 1041 for outside:93.184.216.34/443 (151.101.1.69/443) to inside:10.0.0.22/49501 (10.0.0.22/58163)
+Oct 15 2026 08:11:37 fw01 : %ASA-6-302014: Teardown TCP connection 1041 for outside:142.250.74.78/443 to inside:10.0.0.30/52159 duration 0:00:44 bytes 62193 TCP FINs
+Oct 15 2026 08:11:54 fw01 : %ASA-6-302013: Built outbound TCP connection 1043 for outside:104.16.132.229/443 (104.16.132.229/443) to inside:10.0.0.37/60142 (10.0.0.37/43725)
+Oct 15 2026 08:12:11 fw01 : %ASA-6-302014: Teardown TCP connection 1043 for outside:13.107.42.14/443 to inside:10.0.0.33/50623 duration 0:00:53 bytes 25757 TCP FINs
+Oct 15 2026 08:12:28 fw01 : %ASA-6-302013: Built outbound TCP connection 1045 for outside:93.184.216.34/443 (142.250.74.78/443) to inside:10.0.0.36/49122 (10.0.0.36/63316)
+Oct 15 2026 08:12:45 fw01 : %ASA-6-302014: Teardown TCP connection 1045 for outside:13.107.42.14/443 to inside:10.0.0.36/59125 duration 0:00:21 bytes 45920 TCP FINs
+Oct 15 2026 08:13:02 fw01 : %ASA-6-302013: Built outbound TCP connection 1047 for outside:93.184.216.34/443 (151.101.1.69/443) to inside:10.0.0.35/63534 (10.0.0.35/48290)
+Oct 15 2026 08:13:19 fw01 : %ASA-6-302014: Teardown TCP connection 1047 for outside:93.184.216.34/443 to inside:10.0.0.23/42672 duration 0:00:17 bytes 69482 TCP FINs
+Oct 15 2026 08:13:36 fw01 : %ASA-6-302013: Built outbound TCP connection 1049 for outside:104.16.132.229/443 (142.250.74.78/443) to inside:10.0.0.38/55862 (10.0.0.38/47752)
+Oct 15 2026 08:13:53 fw01 : %ASA-6-302014: Teardown TCP connection 1049 for outside:93.184.216.34/443 to inside:10.0.0.33/48541 duration 0:00:27 bytes 75241 TCP FINs
+Oct 15 2026 08:14:10 fw01 : %ASA-6-302013: Built outbound TCP connection 1051 for outside:151.101.1.69/443 (93.184.216.34/443) to inside:10.0.0.32/61870 (10.0.0.32/49522)
+Oct 15 2026 08:14:27 fw01 : %ASA-6-302014: Teardown TCP connection 1051 for outside:104.16.132.229/443 to inside:10.0.0.23/55692 duration 0:00:53 bytes 38638 TCP FINs
+Oct 15 2026 08:14:44 fw01 : %ASA-6-302013: Built outbound TCP connection 1053 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.28/64687 (10.0.0.28/41228)
+Oct 15 2026 08:15:01 fw01 : %ASA-6-302014: Teardown TCP connection 1053 for outside:142.250.74.78/443 to inside:10.0.0.35/58333 duration 0:00:24 bytes 43263 TCP FINs
+Oct 15 2026 08:15:18 fw01 : %ASA-6-302013: Built outbound TCP connection 1055 for outside:104.16.132.229/443 (142.250.74.78/443) to inside:10.0.0.36/48888 (10.0.0.36/56183)
+Oct 15 2026 08:15:35 fw01 : %ASA-6-302014: Teardown TCP connection 1055 for outside:142.250.74.78/443 to inside:10.0.0.38/56352 duration 0:00:30 bytes 54399 TCP FINs
+Oct 15 2026 08:15:52 fw01 : %ASA-6-302013: Built outbound TCP connection 1057 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.38/50786 (10.0.0.38/63023)
+Oct 15 2026 08:16:09 fw01 : %ASA-6-302014: Teardown TCP connection 1057 for outside:13.107.42.14/443 to inside:10.0.0.23/40872 duration 0:00:11 bytes 21595 TCP FINs
+Oct 15 2026 08:16:26 fw01 : %ASA-6-302013: Built outbound TCP connection 1059 for outside:142.250.74.78/443 (151.101.1.69/443) to inside:10.0.0.20/45970 (10.0.0.20/60545)
+Oct 15 2026 08:16:43 fw01 : %ASA-6-302014: Teardown TCP connection 1059 for outside:13.107.42.14/443 to inside:10.0.0.38/58027 duration 0:00:13 bytes 4180 TCP FINs
+Oct 15 2026 08:17:00 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/58336 to outside:203.0.113.10/ssh for user "test"
+Oct 15 2026 08:17:17 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/62594 to outside:203.0.113.10/ssh for user "guest"
+Oct 15 2026 08:17:34 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/58762 to outside:203.0.113.10/ssh for user "ubuntu"
+Oct 15 2026 08:17:51 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/40029 to outside:203.0.113.10/ssh for user "oracle"
+Oct 15 2026 08:18:08 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/55034 to outside:203.0.113.10/ssh for user "guest"
+Oct 15 2026 08:18:25 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/51404 to outside:203.0.113.10/ssh for user "user"
+Oct 15 2026 08:18:42 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/58349 to outside:203.0.113.10/ssh for user "root"
+Oct 15 2026 08:18:59 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/58053 to outside:203.0.113.10/ssh for user "user"
+Oct 15 2026 08:19:16 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/59250 to outside:203.0.113.10/ssh for user "admin"
+Oct 15 2026 08:19:33 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/63710 to outside:203.0.113.10/ssh for user "guest"
+Oct 15 2026 08:19:50 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/63542 to outside:203.0.113.10/ssh for user "admin"
+Oct 15 2026 08:20:07 fw01 : %ASA-6-605004: Login denied from 203.0.113.66/42010 to outside:203.0.113.10/ssh for user "root"
+Oct 15 2026 08:20:24 fw01 : %ASA-6-302013: Built outbound TCP connection 1073 for outside:13.107.42.14/443 (142.250.74.78/443) to inside:10.0.0.27/60882 (10.0.0.27/49750)
+Oct 15 2026 08:20:41 fw01 : %ASA-6-302014: Teardown TCP connection 1073 for outside:142.250.74.78/443 to inside:10.0.0.23/44496 duration 0:00:57 bytes 26241 TCP FINs
+Oct 15 2026 08:20:58 fw01 : %ASA-6-302013: Built outbound TCP connection 1075 for outside:142.250.74.78/443 (151.101.1.69/443) to inside:10.0.0.38/41954 (10.0.0.38/64313)
+Oct 15 2026 08:21:15 fw01 : %ASA-6-302014: Teardown TCP connection 1075 for outside:104.16.132.229/443 to inside:10.0.0.34/54438 duration 0:00:26 bytes 25427 TCP FINs
+Oct 15 2026 08:21:32 fw01 : %ASA-6-302013: Built outbound TCP connection 1077 for outside:13.107.42.14/443 (142.250.74.78/443) to inside:10.0.0.36/43537 (10.0.0.36/58713)
+Oct 15 2026 08:21:49 fw01 : %ASA-6-302014: Teardown TCP connection 1077 for outside:13.107.42.14/443 to inside:10.0.0.39/53396 duration 0:00:49 bytes 16273 TCP FINs
+Oct 15 2026 08:22:06 fw01 : %ASA-6-302013: Built outbound TCP connection 1079 for outside:93.184.216.34/443 (93.184.216.34/443) to inside:10.0.0.23/43777 (10.0.0.23/41510)
+Oct 15 2026 08:22:23 fw01 : %ASA-6-302014: Teardown TCP connection 1079 for outside:93.184.216.34/443 to inside:10.0.0.32/55355 duration 0:00:11 bytes 49244 TCP FINs
+Oct 15 2026 08:22:40 fw01 : %ASA-4-733100: [Scanning] drop rate-1 exceeded. Current burst rate is 12 per second, max configured rate is 10; Current average rate is 9 per second, max configured rate is 5; Cumulative total count is 5521
+Oct 15 2026 08:22:57 fw01 : %ASA-6-605005: Login permitted from 10.0.0.24/46190 to inside:10.0.0.1/ssh for user "netadmin"
+Oct 15 2026 08:23:14 fw01 : %ASA-5-111008: User 'netadmin' executed the 'access-list outside_in extended permit tcp any any eq 3389' command.
+Oct 15 2026 08:23:31 fw01 : %ASA-6-302013: Built inbound TCP connection 1084 for outside:203.0.113.66/61142 (203.0.113.66/57706) to inside:10.0.0.5/3389 (10.0.0.5/3389)
+Oct 15 2026 08:23:48 fw01 : %ASA-6-302013: Built outbound TCP connection 1085 for outside:104.16.132.229/443 (142.250.74.78/443) to inside:10.0.0.34/49429 (10.0.0.34/50519)
+Oct 15 2026 08:24:05 fw01 : %ASA-6-302014: Teardown TCP connection 1085 for outside:104.16.132.229/443 to inside:10.0.0.33/49331 duration 0:00:22 bytes 1320 TCP FINs
+Oct 15 2026 08:24:22 fw01 : %ASA-6-302013: Built outbound TCP connection 1087 for outside:13.107.42.14/443 (151.101.1.69/443) to inside:10.0.0.33/45904 (10.0.0.33/46553)
+Oct 15 2026 08:24:39 fw01 : %ASA-6-302014: Teardown TCP connection 1087 for outside:93.184.216.34/443 to inside:10.0.0.26/43156 duration 0:00:23 bytes 25680 TCP FINs
+Oct 15 2026 08:24:56 fw01 : %ASA-6-302013: Built outbound TCP connection 1089 for outside:142.250.74.78/443 (151.101.1.69/443) to inside:10.0.0.39/40494 (10.0.0.39/49541)
+Oct 15 2026 08:25:13 fw01 : %ASA-6-302014: Teardown TCP connection 1089 for outside:104.16.132.229/443 to inside:10.0.0.36/47453 duration 0:00:21 bytes 82452 TCP FINs
+Oct 15 2026 08:25:30 fw01 : %ASA-6-302013: Built outbound TCP connection 1091 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.33/57635 (10.0.0.33/47093)
+Oct 15 2026 08:25:47 fw01 : %ASA-6-302014: Teardown TCP connection 1091 for outside:13.107.42.14/443 to inside:10.0.0.33/40312 duration 0:00:15 bytes 53313 TCP FINs
+Oct 15 2026 08:26:04 fw01 : %ASA-6-302013: Built outbound TCP connection 1093 for outside:93.184.216.34/443 (93.184.216.34/443) to inside:10.0.0.34/59620 (10.0.0.34/61362)
+Oct 15 2026 08:26:21 fw01 : %ASA-6-302014: Teardown TCP connection 1093 for outside:142.250.74.78/443 to inside:10.0.0.35/59717 duration 0:00:51 bytes 18429 TCP FINs
+Oct 15 2026 08:26:38 fw01 : %ASA-6-302013: Built outbound TCP connection 1095 for outside:151.101.1.69/443 (142.250.74.78/443) to inside:10.0.0.36/62814 (10.0.0.36/53767)
+Oct 15 2026 08:26:55 fw01 : %ASA-6-302014: Teardown TCP connection 1095 for outside:13.107.42.14/443 to inside:10.0.0.35/43088 duration 0:00:34 bytes 63010 TCP FINs
+Oct 15 2026 08:27:12 fw01 : %ASA-6-302013: Built outbound TCP connection 1097 for outside:142.250.74.78/443 (104.16.132.229/443) to inside:10.0.0.34/62328 (10.0.0.34/49003)
+Oct 15 2026 08:27:29 fw01 : %ASA-6-302014: Teardown TCP connection 1097 for outside:142.250.74.78/443 to inside:10.0.0.33/59989 duration 0:00:41 bytes 56805 TCP FINs
+Oct 15 2026 08:27:46 fw01 : %ASA-6-302013: Built outbound TCP connection 1099 for outside:151.101.1.69/443 (13.107.42.14/443) to inside:10.0.0.23/44196 (10.0.0.23/51532)
+Oct 15 2026 08:28:03 fw01 : %ASA-6-302014: Teardown TCP connection 1099 for outside:142.250.74.78/443 to inside:10.0.0.30/41264 duration 0:00:54 bytes 48421 TCP FINs
+this line was cut by log rotation and is broken on purpose
+Oct 15 2026 08:28:20 fw01 : %ASA-6-302013: Built outbound TCP connection 1101 for outside:142.250.74.78/443 (104.16.132.229/443) to inside:10.0.0.34/41727 (10.0.0.34/50996)
+Oct 15 2026 08:28:37 fw01 : %ASA-6-302014: Teardown TCP connection 1101 for outside:151.101.1.69/443 to inside:10.0.0.32/57482 duration 0:00:33 bytes 86680 TCP FINs
+Oct 15 2026 08:28:54 fw01 : %ASA-6-302013: Built outbound TCP connection 1103 for outside:104.16.132.229/443 (151.101.1.69/443) to inside:10.0.0.22/51104 (10.0.0.22/57930)
+Oct 15 2026 08:29:11 fw01 : %ASA-6-302014: Teardown TCP connection 1103 for outside:104.16.132.229/443 to inside:10.0.0.35/42859 duration 0:00:49 bytes 32485 TCP FINs
+Oct 15 2026 08:29:28 fw01 : %ASA-6-302013: Built outbound TCP connection 1105 for outside:104.16.132.229/443 (151.101.1.69/443) to inside:10.0.0.30/48878 (10.0.0.30/50990)
+Oct 15 2026 08:29:45 fw01 : %ASA-6-302014: Teardown TCP connection 1105 for outside:93.184.216.34/443 to inside:10.0.0.29/41459 duration 0:00:21 bytes 37211 TCP FINs
+Oct 15 2026 08:30:02 fw01 : %ASA-6-302013: Built outbound TCP connection 1107 for outside:151.101.1.69/443 (93.184.216.34/443) to inside:10.0.0.21/57529 (10.0.0.21/46668)
+Oct 15 2026 08:30:19 fw01 : %ASA-6-302014: Teardown TCP connection 1107 for outside:151.101.1.69/443 to inside:10.0.0.22/53511 duration 0:00:25 bytes 24171 TCP FINs
+Oct 15 2026 08:30:36 fw01 : %ASA-6-302013: Built outbound TCP connection 1109 for outside:151.101.1.69/443 (151.101.1.69/443) to inside:10.0.0.27/47147 (10.0.0.27/54151)
+Oct 15 2026 08:30:53 fw01 : %ASA-6-302014: Teardown TCP connection 1109 for outside:13.107.42.14/443 to inside:10.0.0.29/59772 duration 0:00:13 bytes 36685 TCP FINs
+Oct 15 2026 08:31:10 fw01 : %ASA-6-302013: Built outbound TCP connection 1111 for outside:142.250.74.78/443 (104.16.132.229/443) to inside:10.0.0.26/46387 (10.0.0.26/61565)
+Oct 15 2026 08:31:27 fw01 : %ASA-6-302014: Teardown TCP connection 1111 for outside:13.107.42.14/443 to inside:10.0.0.25/63447 duration 0:00:44 bytes 78782 TCP FINs
+Oct 15 2026 08:31:44 fw01 : %ASA-6-302013: Built outbound TCP connection 1113 for outside:13.107.42.14/443 (142.250.74.78/443) to inside:10.0.0.38/49869 (10.0.0.38/40900)
+Oct 15 2026 08:32:01 fw01 : %ASA-6-302014: Teardown TCP connection 1113 for outside:151.101.1.69/443 to inside:10.0.0.38/43313 duration 0:00:31 bytes 10792 TCP FINs
+Oct 15 2026 08:32:18 fw01 : %ASA-6-302013: Built outbound TCP connection 1115 for outside:151.101.1.69/443 (104.16.132.229/443) to inside:10.0.0.21/53644 (10.0.0.21/40248)
+Oct 15 2026 08:32:35 fw01 : %ASA-6-302014: Teardown TCP connection 1115 for outside:142.250.74.78/443 to inside:10.0.0.21/61950 duration 0:00:15 bytes 15805 TCP FINs
+Oct 15 2026 08:32:52 fw01 : %ASA-6-302013: Built outbound TCP connection 1117 for outside:151.101.1.69/443 (151.101.1.69/443) to inside:10.0.0.37/50675 (10.0.0.37/54776)
+Oct 15 2026 08:33:09 fw01 : %ASA-6-302014: Teardown TCP connection 1117 for outside:104.16.132.229/443 to inside:10.0.0.20/44757 duration 0:00:11 bytes 29096 TCP FINs
+Oct 15 2026 08:33:26 fw01 : %ASA-6-302013: Built outbound TCP connection 1119 for outside:142.250.74.78/443 (13.107.42.14/443) to inside:10.0.0.38/60809 (10.0.0.38/62717)
+Oct 15 2026 08:33:43 fw01 : %ASA-6-302014: Teardown TCP connection 1119 for outside:13.107.42.14/443 to inside:10.0.0.35/50324 duration 0:00:55 bytes 35150 TCP FINs
+Oct 15 2026 08:34:00 fw01 : %ASA-2-106001: Inbound TCP connection denied from 203.0.113.66/58424 to 10.0.0.5/445 flags SYN  on interface outside
+Oct 15 2026 08:34:17 fw01 : %ASA-6-302014: Teardown TCP connection 1121 for outside:104.16.132.229/443 to inside:10.0.0.20/53104 duration 0:00:52 bytes 87484 TCP FINs
+Oct 15 2026 08:34:34 fw01 : %ASA-6-302013: Built outbound TCP connection 1123 for outside:104.16.132.229/443 (142.250.74.78/443) to inside:10.0.0.31/61291 (10.0.0.31/57543)
+Oct 15 2026 08:34:51 fw01 : %ASA-6-302014: Teardown TCP connection 1123 for outside:151.101.1.69/443 to inside:10.0.0.38/54606 duration 0:00:18 bytes 85331 TCP FINs
+Oct 15 2026 08:35:08 fw01 : %ASA-6-302013: Built outbound TCP connection 1125 for outside:104.16.132.229/443 (151.101.1.69/443) to inside:10.0.0.25/56484 (10.0.0.25/47954)
+Oct 15 2026 08:35:25 fw01 : %ASA-6-302014: Teardown TCP connection 1125 for outside:142.250.74.78/443 to inside:10.0.0.30/48584 duration 0:00:25 bytes 33356 TCP FINs
+Oct 15 2026 08:35:42 fw01 : %ASA-6-302013: Built outbound TCP connection 1127 for outside:93.184.216.34/443 (93.184.216.34/443) to inside:10.0.0.32/56025 (10.0.0.32/47236)
+Oct 15 2026 08:35:59 fw01 : %ASA-6-302014: Teardown TCP connection 1127 for outside:151.101.1.69/443 to inside:10.0.0.27/59151 duration 0:00:44 bytes 77992 TCP FINs
+Oct 15 2026 08:36:16 fw01 : %ASA-6-302013: Built outbound TCP connection 1129 for outside:93.184.216.34/443 (93.184.216.34/443) to inside:10.0.0.32/41760 (10.0.0.32/57839)
+Oct 15 2026 08:36:33 fw01 : %ASA-6-302014: Teardown TCP connection 1129 for outside:151.101.1.69/443 to inside:10.0.0.31/62425 duration 0:00:53 bytes 53593 TCP FINs
+Oct 15 2026 08:36:50 fw01 : %ASA-6-302013: Built outbound TCP connection 1131 for outside:142.250.74.78/443 (151.101.1.69/443) to inside:10.0.0.24/52829 (10.0.0.24/63408)
+Oct 15 2026 08:37:07 fw01 : %ASA-6-302014: Teardown TCP connection 1131 for outside:93.184.216.34/443 to inside:10.0.0.25/42703 duration 0:00:19 bytes 78696 TCP FINs
+Oct 15 2026 08:37:24 fw01 : %ASA-6-302013: Built outbound TCP connection 1133 for outside:151.101.1.69/443 (13.107.42.14/443) to inside:10.0.0.31/41292 (10.0.0.31/48132)
+Oct 15 2026 08:37:41 fw01 : %ASA-6-302014: Teardown TCP connection 1133 for outside:93.184.216.34/443 to inside:10.0.0.24/46470 duration 0:00:44 bytes 78487 TCP FINs
+Oct 15 2026 08:37:58 fw01 : %ASA-6-302013: Built outbound TCP connection 1135 for outside:142.250.74.78/443 (13.107.42.14/443) to inside:10.0.0.39/40415 (10.0.0.39/44044)
+Oct 15 2026 08:38:15 fw01 : %ASA-6-302014: Teardown TCP connection 1135 for outside:151.101.1.69/443 to inside:10.0.0.25/40336 duration 0:00:11 bytes 43938 TCP FINs
+Oct 15 2026 08:38:32 fw01 : %ASA-6-302013: Built outbound TCP connection 1137 for outside:142.250.74.78/443 (142.250.74.78/443) to inside:10.0.0.31/58016 (10.0.0.31/40911)
+Oct 15 2026 08:38:49 fw01 : %ASA-6-302014: Teardown TCP connection 1137 for outside:93.184.216.34/443 to inside:10.0.0.29/58699 duration 0:00:33 bytes 78419 TCP FINs
+Oct 15 2026 08:39:06 fw01 : %ASA-6-302013: Built outbound TCP connection 1139 for outside:151.101.1.69/443 (13.107.42.14/443) to inside:10.0.0.34/62089 (10.0.0.34/46626)
+Oct 15 2026 08:39:23 fw01 : %ASA-6-302014: Teardown TCP connection 1139 for outside:13.107.42.14/443 to inside:10.0.0.33/63412 duration 0:00:20 bytes 70235 TCP FINs
+Oct 15 2026 08:39:40 fw01 : %ASA-6-302013: Built outbound TCP connection 1141 for outside:142.250.74.78/443 (104.16.132.229/443) to inside:10.0.0.34/58583 (10.0.0.34/45403)
+Oct 15 2026 08:39:57 fw01 : %ASA-6-302014: Teardown TCP connection 1141 for outside:93.184.216.34/443 to inside:10.0.0.36/48286 duration 0:00:48 bytes 40156 TCP FINs
+Oct 15 2026 08:40:14 fw01 : %ASA-6-302013: Built outbound TCP connection 1143 for outside:142.250.74.78/443 (142.250.74.78/443) to inside:10.0.0.23/45448 (10.0.0.23/42596)
+Oct 15 2026 08:40:31 fw01 : %ASA-6-302014: Teardown TCP connection 1143 for outside:151.101.1.69/443 to inside:10.0.0.23/56194 duration 0:00:20 bytes 36728 TCP FINs
+Oct 15 2026 08:40:48 fw01 : %ASA-6-302013: Built outbound TCP connection 1145 for outside:142.250.74.78/443 (93.184.216.34/443) to inside:10.0.0.29/55198 (10.0.0.29/61244)
+Oct 15 2026 08:41:05 fw01 : %ASA-6-302014: Teardown TCP connection 1145 for outside:93.184.216.34/443 to inside:10.0.0.28/62052 duration 0:00:23 bytes 22571 TCP FINs
+Oct 15 2026 08:41:22 fw01 : %ASA-6-302013: Built outbound TCP connection 1147 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.23/56298 (10.0.0.23/57309)
+Oct 15 2026 08:41:39 fw01 : %ASA-6-302014: Teardown TCP connection 1147 for outside:93.184.216.34/443 to inside:10.0.0.31/49651 duration 0:00:54 bytes 67234 TCP FINs
+Oct 15 2026 08:41:56 fw01 : %ASA-6-302013: Built outbound TCP connection 1149 for outside:142.250.74.78/443 (93.184.216.34/443) to inside:10.0.0.32/60263 (10.0.0.32/46454)
+Oct 15 2026 08:42:13 fw01 : %ASA-6-302014: Teardown TCP connection 1149 for outside:151.101.1.69/443 to inside:10.0.0.23/40925 duration 0:00:50 bytes 31527 TCP FINs
+Oct 15 2026 08:42:30 fw01 : %ASA-6-302013: Built outbound TCP connection 1151 for outside:142.250.74.78/443 (13.107.42.14/443) to inside:10.0.0.28/55011 (10.0.0.28/64890)
+Oct 15 2026 08:42:47 fw01 : %ASA-6-302014: Teardown TCP connection 1151 for outside:151.101.1.69/443 to inside:10.0.0.22/59531 duration 0:00:13 bytes 23224 TCP FINs
+Oct 15 2026 08:43:04 fw01 : %ASA-6-302013: Built outbound TCP connection 1153 for outside:142.250.74.78/443 (13.107.42.14/443) to inside:10.0.0.36/44011 (10.0.0.36/50838)
+Oct 15 2026 08:43:21 fw01 : %ASA-6-302014: Teardown TCP connection 1153 for outside:93.184.216.34/443 to inside:10.0.0.36/56061 duration 0:00:14 bytes 48911 TCP FINs
+Oct 15 2026 08:43:38 fw01 : %ASA-6-302013: Built outbound TCP connection 1155 for outside:13.107.42.14/443 (104.16.132.229/443) to inside:10.0.0.23/54508 (10.0.0.23/61510)
+Oct 15 2026 08:43:55 fw01 : %ASA-6-302014: Teardown TCP connection 1155 for outside:13.107.42.14/443 to inside:10.0.0.22/49262 duration 0:00:19 bytes 11937 TCP FINs
+Oct 15 2026 08:44:12 fw01 : %ASA-6-302013: Built outbound TCP connection 1157 for outside:93.184.216.34/443 (104.16.132.229/443) to inside:10.0.0.38/48450 (10.0.0.38/50724)
+Oct 15 2026 08:44:29 fw01 : %ASA-6-302014: Teardown TCP connection 1157 for outside:13.107.42.14/443 to inside:10.0.0.37/45025 duration 0:00:58 bytes 57112 TCP FINs
+Oct 15 2026 08:44:46 fw01 : %ASA-6-302013: Built outbound TCP connection 1159 for outside:13.107.42.14/443 (151.101.1.69/443) to inside:10.0.0.26/44288 (10.0.0.26/49971)
+Oct 15 2026 08:45:03 fw01 : %ASA-6-302014: Teardown TCP connection 1159 for outside:151.101.1.69/443 to inside:10.0.0.26/60812 duration 0:00:40 bytes 25890 TCP FINs
+Oct 15 2026 08:45:20 fw01 : %ASA-6-302013: Built outbound TCP connection 1161 for outside:13.107.42.14/443 (142.250.74.78/443) to inside:10.0.0.22/62842 (10.0.0.22/50535)
+Oct 15 2026 08:45:37 fw01 : %ASA-6-302014: Teardown TCP connection 1161 for outside:151.101.1.69/443 to inside:10.0.0.39/47441 duration 0:00:15 bytes 48389 TCP FINs
+Oct 15 2026 08:45:54 fw01 : %ASA-6-302013: Built outbound TCP connection 1163 for outside:104.16.132.229/443 (142.250.74.78/443) to inside:10.0.0.38/47175 (10.0.0.38/43553)
+Oct 15 2026 08:46:11 fw01 : %ASA-6-302014: Teardown TCP connection 1163 for outside:151.101.1.69/443 to inside:10.0.0.33/44215 duration 0:00:25 bytes 8846 TCP FINs
+Oct 15 2026 08:46:28 fw01 : %ASA-6-302013: Built outbound TCP connection 1165 for outside:104.16.132.229/443 (151.101.1.69/443) to inside:10.0.0.37/62910 (10.0.0.37/47246)
+Oct 15 2026 08:46:45 fw01 : %ASA-6-302014: Teardown TCP connection 1165 for outside:13.107.42.14/443 to inside:10.0.0.38/63689 duration 0:00:21 bytes 25055 TCP FINs
+Oct 15 2026 08:47:02 fw01 : %ASA-6-302013: Built outbound TCP connection 1167 for outside:151.101.1.69/443 (93.184.216.34/443) to inside:10.0.0.38/63527 (10.0.0.38/49666)
+Oct 15 2026 08:47:19 fw01 : %ASA-6-302014: Teardown TCP connection 1167 for outside:93.184.216.34/443 to inside:10.0.0.38/48480 duration 0:00:32 bytes 36713 TCP FINs
+Oct 15 2026 08:47:36 fw01 : %ASA-6-302013: Built outbound TCP connection 1169 for outside:13.107.42.14/443 (13.107.42.14/443) to inside:10.0.0.34/43567 (10.0.0.34/64528)
+Oct 15 2026 08:47:53 fw01 : %ASA-6-302014: Teardown TCP connection 1169 for outside:142.250.74.78/443 to inside:10.0.0.20/41419 duration 0:00:30 bytes 51028 TCP FINs

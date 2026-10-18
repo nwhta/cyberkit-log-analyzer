@@ -1,0 +1,1553 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img0.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "ce3c9d17",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:00:00.696459Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-1",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.50",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "be075f0d",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:00:59.281467Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-2",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.46",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "e88f6904",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:01:58.534960Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img3.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "5b68c2c9",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:02:57.641767Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-4",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.51",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "239fb27a7",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:03:56.918799Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-5",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.46",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "6e1a2b17",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:04:55.610414Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img6.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "6f01bdbe",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:05:54.307670Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-7",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.57",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1ac3d9c0b",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:06:53.032807Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.disks.createSnapshot",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-8",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.44",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "4f0f291c",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:07:52.144417Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img9.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "21892f43b",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:08:51.143658Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-10",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.56",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "ae440410",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:09:50.749053Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-11",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.55",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "114231284",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:10:49.143345Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img12.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1375ac738",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:11:48.005881Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-13",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1f28ac0e9",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:12:47.062907Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-14",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.40",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "13deaa5a8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:13:46.982245Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "16d2016f1",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:14:45.422356Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "5b2f86fd",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:15:44.516134Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "1b21a7e11",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:16:43.794847Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "140961d26",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:17:42.407175Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "89dd4276",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:18:41.802651Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "1b269b474",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:19:40.813129Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "4793fd0f",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:20:39.139812Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "23c73a982",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:21:38.862120Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "2108d746d",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:22:37.919057Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.list",
+      "resourceName": "projects/_/buckets/shop-prod-123456-backups",
+      "authenticationInfo": {
+        "principalEmail": "intruder@gmail.example"
+      },
+      "requestMetadata": {
+        "callerIp": "185.220.101.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "status": {
+        "code": 7,
+        "message": "PERMISSION_DENIED"
+      }
+    },
+    "insertId": "157c8a247",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:23:36.231850Z",
+    "severity": "ERROR",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.disks.createSnapshot",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-25",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.50",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1cde2553a",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:24:35.582036Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-26",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.47",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "75d96d48",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:25:34.348517Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img27.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1255dd43f",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:26:33.461125Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-28",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.55",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "8427ad1e",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:27:32.310329Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-29",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.47",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "4abc4d86",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:28:31.796864Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.admin.v1.CreateServiceAccountKey",
+      "resourceName": "projects/shop-prod-123456/serviceAccounts/deployer@shop-prod-123456.iam.gserviceaccount.com",
+      "authenticationInfo": {
+        "principalEmail": "dev-ann@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "102.89.33.17",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "186218d40",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:29:30.496690Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.setIamPermissions",
+      "resourceName": "projects/_/buckets/shop-prod-123456-exports",
+      "authenticationInfo": {
+        "principalEmail": "dev-ann@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "102.89.33.17",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "f8563511",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:30:29.930256Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "resourceName": "projects/shop-prod-123456",
+      "authenticationInfo": {
+        "principalEmail": "dev-ann@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "102.89.33.17",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      },
+      "serviceData": {
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/storage.objectViewer",
+              "member": "allUsers"
+            }
+          ]
+        }
+      }
+    },
+    "insertId": "1cbfe837b",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:31:28.192366Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.firewalls.insert",
+      "resourceName": "projects/shop-prod-123456/global/firewalls/allow-ssh-any",
+      "authenticationInfo": {
+        "principalEmail": "dev-ann@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "102.89.33.17",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "d3e75066",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:32:27.499989Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.ConfigServiceV2.DeleteSink",
+      "resourceName": "projects/shop-prod-123456/sinks/to-siem",
+      "authenticationInfo": {
+        "principalEmail": "dev-ann@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "102.89.33.17",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "74e57931",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:33:26.360064Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.disks.createSnapshot",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-35",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.53",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "181e6c39a",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:34:25.181824Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img36.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "10a91d633",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:35:24.803730Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-37",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.57",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "85426d3f",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:36:23.911874Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.disks.createSnapshot",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-38",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.52",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "2173759d8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:37:22.963133Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img39.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1132c76f1",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:38:21.563366Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-40",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.57",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "21b236351",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:39:20.488611Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-41",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.49",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "9373098f",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:40:19.908416Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img42.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "9dfccc97",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:41:18.462245Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-43",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.50",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "8fd6b0c7",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:42:17.638424Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-44",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "d1580389",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:43:16.310965Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img45.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "157d83d5b",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:44:15.880907Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-46",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.52",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "164d1ac3a",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:45:14.700645Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-47",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.53",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "18adde1a5",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:46:13.456832Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img48.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "22b9b24ef",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:47:12.629573Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-49",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.58",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1318a6ba3",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:48:11.489322Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-50",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.46",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1d27a67e8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:49:10.451586Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img51.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "22dfbd604",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:50:09.906356Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-52",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.40",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "ddcf9fd5",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:51:08.140507Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "container.googleapis.com",
+      "methodName": "google.container.v1.ClusterManager.UpdateCluster",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-53",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.56",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "162509c32",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:52:07.241025Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img54.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "1d6455456",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:53:06.493068Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "beta.compute.disks.createSnapshot",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-55",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.40",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "74a47a85",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:54:05.369536Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-56",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.50",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "224820ee2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:55:04.133470Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "storage.googleapis.com",
+      "methodName": "storage.objects.get",
+      "resourceName": "projects/_/buckets/shop-prod-123456-assets/objects/img57.png",
+      "authenticationInfo": {
+        "principalEmail": "web@shop-prod-123456.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "10.128.0.12",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "22af88b93",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:56:03.133015Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Fdata_access"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.insert",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-58",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.45",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "d72e69cd",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:57:02.506489Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shop-prod-123456/zones/europe-west1-b/instances/vm-59",
+      "authenticationInfo": {
+        "principalEmail": "ops@contoso.example"
+      },
+      "requestMetadata": {
+        "callerIp": "198.51.100.43",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/495.0.0"
+      }
+    },
+    "insertId": "12664e323",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shop-prod-123456"
+      }
+    },
+    "timestamp": "2026-10-15T08:58:01.077775Z",
+    "severity": "NOTICE",
+    "logName": "projects/shop-prod-123456/logs/cloudaudit.googleapis.com%2Factivity"
+  }
+]

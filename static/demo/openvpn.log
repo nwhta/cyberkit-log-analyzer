@@ -1,0 +1,111 @@
+2026-10-15 08:00:00 OpenVPN 2.6.12 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
+2026-10-15 08:00:00 UDPv4 link local (bound): [AF_INET][undef]:1194
+2026-10-15 08:00:00 Initialization Sequence Completed
+2026-10-15 08:01:14 carol/198.51.100.58:47956 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:02:28 198.51.100.43:55460 [carol] Peer Connection Initiated with [AF_INET]198.51.100.43:55460
+2026-10-15 08:02:28 carol/198.51.100.43:55460 MULTI_sva: pool returned IPv4=10.8.0.7, IPv6=(Not enabled)
+2026-10-15 08:03:42 carol/198.51.100.50:44279 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:04:56 198.51.100.57:49451 [alice] Peer Connection Initiated with [AF_INET]198.51.100.57:49451
+2026-10-15 08:04:56 alice/198.51.100.57:49451 MULTI_sva: pool returned IPv4=10.8.0.8, IPv6=(Not enabled)
+2026-10-15 08:06:10 alice/198.51.100.59:56135 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:07:24 198.51.100.47:46787 [dave] Peer Connection Initiated with [AF_INET]198.51.100.47:46787
+2026-10-15 08:07:24 dave/198.51.100.47:46787 MULTI_sva: pool returned IPv4=10.8.0.9, IPv6=(Not enabled)
+2026-10-15 08:08:38 bob/198.51.100.56:50532 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:09:52 198.51.100.42:41372 [alice] Peer Connection Initiated with [AF_INET]198.51.100.42:41372
+2026-10-15 08:09:52 alice/198.51.100.42:41372 MULTI_sva: pool returned IPv4=10.8.0.10, IPv6=(Not enabled)
+2026-10-15 08:11:06 bob/198.51.100.45:51868 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:12:20 198.51.100.56:62225 [alice] Peer Connection Initiated with [AF_INET]198.51.100.56:62225
+2026-10-15 08:12:20 alice/198.51.100.56:62225 MULTI_sva: pool returned IPv4=10.8.0.11, IPv6=(Not enabled)
+2026-10-15 08:13:34 alice/198.51.100.52:55349 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:14:48 198.51.100.56:40375 [alice] Peer Connection Initiated with [AF_INET]198.51.100.56:40375
+2026-10-15 08:14:48 alice/198.51.100.56:40375 MULTI_sva: pool returned IPv4=10.8.0.12, IPv6=(Not enabled)
+2026-10-15 08:16:02 bob/198.51.100.43:58932 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:17:16 198.51.100.40:54988 [dave] Peer Connection Initiated with [AF_INET]198.51.100.40:54988
+2026-10-15 08:17:16 dave/198.51.100.40:54988 MULTI_sva: pool returned IPv4=10.8.0.13, IPv6=(Not enabled)
+2026-10-15 08:18:30 45.155.205.12:43321 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:48124
+2026-10-15 08:19:07 45.155.205.12:62446 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:57066
+2026-10-15 08:19:44 45.155.205.12:47368 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:52103
+2026-10-15 08:20:21 45.155.205.12:48667 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:63629
+2026-10-15 08:20:58 45.155.205.12:40252 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:51964
+2026-10-15 08:21:35 45.155.205.12:64293 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:47902
+2026-10-15 08:22:12 45.155.205.12:53075 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:42930
+2026-10-15 08:22:49 45.155.205.12:59704 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:47236
+2026-10-15 08:23:26 45.155.205.12:40388 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:40166
+2026-10-15 08:24:03 45.155.205.12:50552 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:52752
+2026-10-15 08:24:40 45.155.205.12:41214 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:42091
+2026-10-15 08:25:17 45.155.205.12:46270 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:64178
+2026-10-15 08:25:54 45.155.205.12:53801 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:56766
+2026-10-15 08:26:31 45.155.205.12:41917 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:55453
+2026-10-15 08:27:08 45.155.205.12:59276 TLS Error: incoming packet authentication failed from [AF_INET]45.155.205.12:40594
+2026-10-15 08:28:22 bob/198.51.100.43:49695 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:29:36 198.51.100.43:50931 [carol] Peer Connection Initiated with [AF_INET]198.51.100.43:50931
+2026-10-15 08:29:36 carol/198.51.100.43:50931 MULTI_sva: pool returned IPv4=10.8.0.14, IPv6=(Not enabled)
+2026-10-15 08:30:50 203.0.113.66:62569 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:30:50 203.0.113.66:62569 AUTH-PAM: BACKGROUND: user 'user' failed to authenticate: Authentication failure
+2026-10-15 08:30:50 203.0.113.66:62569 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:31:27 203.0.113.66:47546 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:31:27 203.0.113.66:47546 AUTH-PAM: BACKGROUND: user 'postgres' failed to authenticate: Authentication failure
+2026-10-15 08:31:27 203.0.113.66:47546 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:32:04 203.0.113.66:62508 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:32:04 203.0.113.66:62508 AUTH-PAM: BACKGROUND: user 'ubuntu' failed to authenticate: Authentication failure
+2026-10-15 08:32:04 203.0.113.66:62508 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:32:41 203.0.113.66:56815 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:32:41 203.0.113.66:56815 AUTH-PAM: BACKGROUND: user 'admin' failed to authenticate: Authentication failure
+2026-10-15 08:32:41 203.0.113.66:56815 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:33:18 203.0.113.66:55605 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:33:18 203.0.113.66:55605 AUTH-PAM: BACKGROUND: user 'root' failed to authenticate: Authentication failure
+2026-10-15 08:33:18 203.0.113.66:55605 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:33:55 203.0.113.66:50947 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:33:55 203.0.113.66:50947 AUTH-PAM: BACKGROUND: user 'root' failed to authenticate: Authentication failure
+2026-10-15 08:33:55 203.0.113.66:50947 TLS Auth Error: Auth Username/Password verification failed for peer
+this line was cut by log rotation and is broken on purpose
+2026-10-15 08:34:32 203.0.113.66:46771 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:34:32 203.0.113.66:46771 AUTH-PAM: BACKGROUND: user 'root' failed to authenticate: Authentication failure
+2026-10-15 08:34:32 203.0.113.66:46771 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:35:09 203.0.113.66:40694 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:35:09 203.0.113.66:40694 AUTH-PAM: BACKGROUND: user 'ubuntu' failed to authenticate: Authentication failure
+2026-10-15 08:35:09 203.0.113.66:40694 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:35:46 203.0.113.66:48561 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:35:46 203.0.113.66:48561 AUTH-PAM: BACKGROUND: user 'user' failed to authenticate: Authentication failure
+2026-10-15 08:35:46 203.0.113.66:48561 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:36:23 203.0.113.66:44243 PLUGIN_CALL: POST /usr/lib/openvpn/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=1
+2026-10-15 08:36:23 203.0.113.66:44243 AUTH-PAM: BACKGROUND: user 'test' failed to authenticate: Authentication failure
+2026-10-15 08:36:23 203.0.113.66:44243 TLS Auth Error: Auth Username/Password verification failed for peer
+2026-10-15 08:37:00 198.51.100.44:40627 [bob] Peer Connection Initiated with [AF_INET]198.51.100.44:40627
+2026-10-15 08:37:00 bob/198.51.100.44:40627 MULTI_sva: pool returned IPv4=10.8.0.15, IPv6=(Not enabled)
+2026-10-15 08:38:14 carol/198.51.100.45:57165 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:39:28 198.51.100.57:47016 [carol] Peer Connection Initiated with [AF_INET]198.51.100.57:47016
+2026-10-15 08:39:28 carol/198.51.100.57:47016 MULTI_sva: pool returned IPv4=10.8.0.16, IPv6=(Not enabled)
+2026-10-15 08:40:42 dave/198.51.100.46:60800 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:41:56 198.51.100.46:51034 [dave] Peer Connection Initiated with [AF_INET]198.51.100.46:51034
+2026-10-15 08:41:56 dave/198.51.100.46:51034 MULTI_sva: pool returned IPv4=10.8.0.17, IPv6=(Not enabled)
+2026-10-15 08:43:10 198.51.100.47:50967 VERIFY ERROR: depth=0, error=certificate has expired: CN=old-laptop
+2026-10-15 08:44:24 198.51.100.56:62557 [dave] Peer Connection Initiated with [AF_INET]198.51.100.56:62557
+2026-10-15 08:44:24 dave/198.51.100.56:62557 MULTI_sva: pool returned IPv4=10.8.0.18, IPv6=(Not enabled)
+2026-10-15 08:45:38 dave/198.51.100.41:53847 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:46:52 198.51.100.54:42665 [carol] Peer Connection Initiated with [AF_INET]198.51.100.54:42665
+2026-10-15 08:46:52 carol/198.51.100.54:42665 MULTI_sva: pool returned IPv4=10.8.0.19, IPv6=(Not enabled)
+2026-10-15 08:48:06 dave/198.51.100.50:59631 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:49:20 198.51.100.47:44555 [alice] Peer Connection Initiated with [AF_INET]198.51.100.47:44555
+2026-10-15 08:49:20 alice/198.51.100.47:44555 MULTI_sva: pool returned IPv4=10.8.0.20, IPv6=(Not enabled)
+2026-10-15 08:50:34 carol/198.51.100.55:53924 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:51:48 198.51.100.40:45142 [dave] Peer Connection Initiated with [AF_INET]198.51.100.40:45142
+2026-10-15 08:51:48 dave/198.51.100.40:45142 MULTI_sva: pool returned IPv4=10.8.0.21, IPv6=(Not enabled)
+2026-10-15 08:53:02 alice/198.51.100.40:57763 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:54:16 198.51.100.52:52187 [bob] Peer Connection Initiated with [AF_INET]198.51.100.52:52187
+2026-10-15 08:54:16 bob/198.51.100.52:52187 MULTI_sva: pool returned IPv4=10.8.0.22, IPv6=(Not enabled)
+2026-10-15 08:55:30 bob/198.51.100.53:41381 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:56:44 198.51.100.49:47345 [carol] Peer Connection Initiated with [AF_INET]198.51.100.49:47345
+2026-10-15 08:56:44 carol/198.51.100.49:47345 MULTI_sva: pool returned IPv4=10.8.0.23, IPv6=(Not enabled)
+2026-10-15 08:57:58 bob/198.51.100.55:53371 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 08:59:12 198.51.100.47:58279 [dave] Peer Connection Initiated with [AF_INET]198.51.100.47:58279
+2026-10-15 08:59:12 dave/198.51.100.47:58279 MULTI_sva: pool returned IPv4=10.8.0.24, IPv6=(Not enabled)
+2026-10-15 09:00:26 dave/198.51.100.46:58792 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 09:01:40 198.51.100.55:47110 [dave] Peer Connection Initiated with [AF_INET]198.51.100.55:47110
+2026-10-15 09:01:40 dave/198.51.100.55:47110 MULTI_sva: pool returned IPv4=10.8.0.25, IPv6=(Not enabled)
+2026-10-15 09:02:54 bob/198.51.100.59:61665 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 09:04:08 198.51.100.58:45092 [carol] Peer Connection Initiated with [AF_INET]198.51.100.58:45092
+2026-10-15 09:04:08 carol/198.51.100.58:45092 MULTI_sva: pool returned IPv4=10.8.0.26, IPv6=(Not enabled)
+2026-10-15 09:05:22 carol/198.51.100.45:56383 SIGTERM[soft,remote-exit] received, client-instance exiting
+2026-10-15 09:06:36 198.51.100.46:55303 [bob] Peer Connection Initiated with [AF_INET]198.51.100.46:55303
+2026-10-15 09:06:36 bob/198.51.100.46:55303 MULTI_sva: pool returned IPv4=10.8.0.27, IPv6=(Not enabled)

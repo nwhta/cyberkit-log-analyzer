@@ -1,0 +1,97 @@
+Oct 15 08:00:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792051200000 src=45.155.205.12 spt=40000 dst=10.0.0.5 dpt=3389 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792051240000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:01:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:02:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792051360000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792051400000 src=198.51.100.56 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:04:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792051440000 src=45.155.205.12 spt=40006 dst=10.0.0.5 dpt=3389 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792051480000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:05:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:06:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+Oct 15 08:06:00 fw01 kernel: a syslog line without CEF, kept and marked as unparsed
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792051600000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792051640000 src=198.51.100.51 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:08:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792051680000 src=45.155.205.12 spt=40012 dst=10.0.0.5 dpt=23 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792051720000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:09:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:10:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792051840000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792051880000 src=198.51.100.41 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:12:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792051920000 src=45.155.205.12 spt=40018 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792051960000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:13:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:14:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792052080000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792052120000 src=198.51.100.51 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:16:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792052160000 src=45.155.205.12 spt=40024 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792052200000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:17:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:18:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792052320000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792052360000 src=198.51.100.45 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:20:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792052400000 src=45.155.205.12 spt=40030 dst=10.0.0.5 dpt=5900 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792052440000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:21:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:22:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792052560000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792052600000 src=198.51.100.55 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:24:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792052640000 src=45.155.205.12 spt=40036 dst=10.0.0.5 dpt=3389 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792052680000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:25:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:26:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792052800000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792052840000 src=198.51.100.51 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:28:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792052880000 src=45.155.205.12 spt=40042 dst=10.0.0.5 dpt=3389 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792052920000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:29:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:30:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792053040000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792053080000 src=198.51.100.49 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:32:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792053120000 src=45.155.205.12 spt=40048 dst=10.0.0.5 dpt=5900 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792053160000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:33:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:34:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792053280000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792053320000 src=198.51.100.57 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:36:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792053360000 src=45.155.205.12 spt=40054 dst=10.0.0.5 dpt=3389 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792053400000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:37:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:38:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792053520000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792053560000 src=198.51.100.57 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:40:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792053600000 src=45.155.205.12 spt=40060 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792053640000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:41:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:42:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792053760000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792053800000 src=198.51.100.41 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:44:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792053840000 src=45.155.205.12 spt=40066 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792053880000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:45:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:46:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792054000000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792054040000 src=198.51.100.40 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:48:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792054080000 src=45.155.205.12 spt=40072 dst=10.0.0.5 dpt=5900 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792054120000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:49:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:50:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792054240000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792054280000 src=198.51.100.43 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:52:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792054320000 src=45.155.205.12 spt=40078 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792054360000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:53:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:54:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792054480000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792054520000 src=198.51.100.44 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 08:56:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792054560000 src=45.155.205.12 spt=40084 dst=10.0.0.5 dpt=23 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792054600000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T08:57:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 08:58:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792054720000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792054760000 src=198.51.100.44 dst=10.0.0.9 dpt=1433 proto=6 act=deny
+Oct 15 09:00:00 fw01 CEF:0|Fortinet|FortiGate-100F|7.2.5|0000000013|traffic:forward deny|5|rt=1792054800000 src=45.155.205.12 spt=40090 dst=10.0.0.5 dpt=22 proto=6 act=deny deviceExternalId=FG100F cat=traffic
+CEF:0|Check Point|VPN-1 & FireWall-1|R81|Log|Accept|1|rt=1792054840000 src=10.0.0.23 dst=93.184.216.34 dpt=443 proto=6 act=Accept suser=CORP\\anna cs1Label=Rule Name cs1=Allow web
+<134>1 2026-10-15T09:01:20Z ids01 CEF:0|Trend Micro|Deep Security Agent|20.0|1008207|Web Server Directory Traversal Attempt|8|src=203.0.113.66 dst=10.0.0.5 dpt=80 act=Reset request=http://example.com/../../etc/passwd msg=Path traversal detected cn1Label=Host ID cn1=42
+CEF:0|Microsoft|Windows|10|4625|An account failed to log on|7|rt=Oct 15 2026 09:02:00 src=203.0.113.66 duser=administrator outcome=failure msg=Bad password\=wrong cat=Logon
+CEF:0|Palo Alto Networks|PAN-OS|11.1|threat|Command and Control Traffic|Very-High|rt=1792054960000 src=10.0.0.23 dst=203.0.113.200 dpt=8443 act=drop cat=spyware cs2Label=Threat Name cs2=CobaltStrike Beacon
+CEF:0|Cisco|ASA|9.18|106023|Deny tcp by access-group|Low|rt=1792055000000 src=198.51.100.59 dst=10.0.0.9 dpt=1433 proto=6 act=deny

@@ -1,0 +1,33 @@
+# --- Secrets and local data: never publish ---
+.env
+.env.*
+*.key
+*.pem
+*.hash
+*.db
+*.sqlite
+data/
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Node / TypeScript ---
+node_modules/
+*.js.map
+
+# --- Real logs (may contain IPs, user names, hosts) ---
+# Demo logs in static/demo/ are synthetic and are committed on purpose.
+*.log
+!static/demo/*.log
+uploads/
+samples/
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

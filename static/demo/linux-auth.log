@@ -1,0 +1,133 @@
+Oct 15 08:00:00 web01 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct 15 08:00:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:00:01 web01 sshd[812]: Server listening on 0.0.0.0 port 22.
+Oct 15 08:00:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:00:02 web01 systemd[1]: Started OpenBSD Secure Shell server.
+Oct 15 08:00:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 08:05:00 web01 sshd[3101]: Accepted publickey for alice from 198.51.100.40 port 50122 ssh2: ED25519 SHA256:abc
+Oct 15 08:05:00 web01 sshd[3101]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 15 08:05:01 web01 systemd-logind[640]: New session 12 of user alice.
+Oct 15 08:06:00 web01 sudo[3150]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 15 08:07:00 web01 sudo[3160]:      bob : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/bash
+Oct 15 08:07:05 web01 sudo[3161]:    guest : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/guest ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct 15 08:08:00 web01 su[3170]: (to root) alice on pts/0
+Oct 15 08:08:30 web01 su[3171]: FAILED SU (to root) bob on pts/1
+Oct 15 08:10:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:10:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:10:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 08:20:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:20:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:20:01 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40000 ssh2
+Oct 15 08:20:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 08:20:05 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40001 ssh2
+Oct 15 08:20:08 web01 sshd[4100]: Invalid user admin from 203.0.113.66 port 40002
+Oct 15 08:20:09 web01 sshd[4100]: Failed password for invalid user admin from 203.0.113.66 port 40002 ssh2
+Oct 15 08:20:13 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40003 ssh2
+Oct 15 08:20:16 web01 sshd[4100]: Invalid user ubuntu from 203.0.113.66 port 40004
+Oct 15 08:20:17 web01 sshd[4100]: Failed password for invalid user ubuntu from 203.0.113.66 port 40004 ssh2
+Oct 15 08:20:21 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40005 ssh2
+Oct 15 08:20:24 web01 sshd[4100]: Invalid user test from 203.0.113.66 port 40006
+Oct 15 08:20:25 web01 sshd[4100]: Failed password for invalid user test from 203.0.113.66 port 40006 ssh2
+    continuation line that belongs to the previous message
+Oct 15 08:20:28 web01 sshd[4100]: Invalid user oracle from 203.0.113.66 port 40007
+Oct 15 08:20:29 web01 sshd[4100]: Failed password for invalid user oracle from 203.0.113.66 port 40007 ssh2
+Oct 15 08:20:33 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40008 ssh2
+Oct 15 08:20:36 web01 sshd[4100]: Invalid user postgres from 203.0.113.66 port 40009
+Oct 15 08:20:37 web01 sshd[4100]: Failed password for invalid user postgres from 203.0.113.66 port 40009 ssh2
+Oct 15 08:20:40 web01 sshd[4100]: Invalid user admin from 203.0.113.66 port 40010
+Oct 15 08:20:41 web01 sshd[4100]: Failed password for invalid user admin from 203.0.113.66 port 40010 ssh2
+Oct 15 08:20:44 web01 sshd[4100]: Invalid user pi from 203.0.113.66 port 40011
+Oct 15 08:20:45 web01 sshd[4100]: Failed password for invalid user pi from 203.0.113.66 port 40011 ssh2
+Oct 15 08:20:49 web01 sshd[4100]: Failed password for root from 203.0.113.66 port 40012 ssh2
+Oct 15 08:20:52 web01 sshd[4100]: Invalid user git from 203.0.113.66 port 40013
+Oct 15 08:20:53 web01 sshd[4100]: Failed password for invalid user git from 203.0.113.66 port 40013 ssh2
+Oct 15 08:21:00 web01 sshd[4101]: error: maximum authentication attempts exceeded for root from 203.0.113.66 port 40020 ssh2 [preauth]
+Oct 15 08:21:02 web01 sshd[4101]: Disconnecting authenticating user root 203.0.113.66 port 40020: Too many authentication failures [preauth]
+Oct 15 08:22:00 web01 sshd[4102]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.23  user=deploy
+Oct 15 08:22:01 web01 sshd[4102]: Failed password for deploy from 198.51.100.23 port 51000 ssh2
+Oct 15 08:23:00 web01 sshd[4103]: Did not receive identification string from 45.155.205.12 port 61000
+Oct 15 08:23:10 web01 sshd[4104]: Connection closed by authenticating user root 45.155.205.12 port 61010 [preauth]
+Oct 15 08:25:00 web01 sshd[4110]: Accepted password for root from 203.0.113.66 port 40100 ssh2
+Oct 15 08:26:00 web01 useradd[4120]: new group: name=support, GID=1005
+Oct 15 08:26:01 web01 useradd[4120]: new user: name=support, UID=1005, GID=1005, home=/home/support, shell=/bin/bash, from=/dev/pts/3
+Oct 15 08:26:05 web01 usermod[4125]: add 'support' to group 'sudo'
+Oct 15 08:26:06 web01 usermod[4125]: add 'support' to shadow group 'sudo'
+Oct 15 08:26:20 web01 passwd[4130]: pam_unix(passwd:chauthtok): password changed for support
+Oct 15 08:27:00 web01 crontab[4140]: (root) REPLACE (root)
+Oct 15 08:28:00 web01 useradd[4150]: new user: name=sysbackup, UID=0, GID=0, home=/root, shell=/bin/bash, from=/dev/pts/3
+Oct 15 08:30:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:30:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:30:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+garbage line without a syslog header, kept and marked as unparsed
+Oct 15 08:40:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:40:00 web01 kernel: [8123.756023] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=21 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:40:01 web01 kernel: [8124.203808] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 08:40:02 web01 kernel: [8125.581446] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=23 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:03 web01 kernel: [8126.692951] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=25 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:04 web01 kernel: [8127.387874] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=53 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:05 web01 kernel: [8128.543707] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=80 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:06 web01 kernel: [8129.409057] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=110 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:07 web01 kernel: [8130.355012] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=135 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:08 web01 kernel: [8131.233800] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=139 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:09 web01 kernel: [8132.216341] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=143 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:10 web01 kernel: [8133.858184] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:11 web01 kernel: [8134.142271] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:12 web01 kernel: [8135.623060] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:13 web01 kernel: [8136.957836] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=3306 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:14 web01 kernel: [8137.590706] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:15 web01 kernel: [8138.234525] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=5432 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:16 web01 kernel: [8139.836442] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=5900 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:17 web01 kernel: [8140.972999] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=6379 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:18 web01 kernel: [8141.434977] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=8080 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:19 web01 kernel: [8142.960023] [UFW BLOCK] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=45.155.205.12 DST=10.0.0.5 LEN=44 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=51544 DPT=27017 WINDOW=1024 RES=0x00 SYN URGP=0
+Oct 15 08:40:30 web01 kernel: [8160.000001] [UFW ALLOW] IN=eth0 OUT= MAC=00:16:3e:aa:bb:cc SRC=198.51.100.40 DST=10.0.0.5 LEN=60 PROTO=TCP SPT=50122 DPT=22 WINDOW=64240 SYN URGP=0
+Oct 15 08:40:40 web01 kernel: [8170.000002] [UFW AUDIT] IN= OUT=eth0 SRC=10.0.0.5 DST=91.189.91.39 LEN=60 PROTO=TCP SPT=40100 DPT=80 WINDOW=64240 SYN URGP=0
+Oct 15 08:42:00 web01 kernel: [8240.123456] audit: type=1400 audit(1792054920.123:88): apparmor="DENIED" operation="open" profile="/usr/sbin/cupsd" name="/etc/shadow" pid=2210 comm="cupsd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 15 08:43:00 web01 kernel: [8300.555555] Out of memory: Killed process 2875 (java) total-vm:8123456kB, anon-rss:4012345kB, file-rss:0kB, shmem-rss:0kB, UID:1001 pgtables:9000kB oom_score_adj:0
+Oct 15 08:44:00 web01 kernel: [8360.111111] php-fpm8.2[3011]: segfault at 0 ip 00007f1c2a3b4c5d sp 00007ffd1e2f3a40 error 4 in libc.so.6[7f1c2a200000+195000]
+Oct 15 08:45:00 web01 kernel: [8420.222222] EXT4-fs error (device sda1): ext4_find_entry:1455: inode #131074: comm nginx: reading directory lblock 0
+Oct 15 08:46:00 web01 kernel: [8480.333333] usb 1-1: New USB device found, idVendor=0781, idProduct=5581, bcdDevice= 1.00
+Oct 15 08:47:00 web01 kernel: [8540.444444] TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Oct 15 08:50:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 08:50:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 08:50:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 08:55:00 web01 systemd[1]: nginx.service: Main process exited, code=exited, status=1/FAILURE
+Oct 15 08:55:01 web01 systemd[1]: nginx.service: Failed with result 'exit-code'.
+Oct 15 08:55:02 web01 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Oct 15 08:55:10 web01 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Oct 15 08:56:00 web01 postfix/smtpd[5100]: connect from unknown[203.0.113.66]
+Oct 15 08:56:02 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:03 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:04 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:05 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:06 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:07 web01 postfix/smtpd[5100]: warning: unknown[203.0.113.66]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 15 08:56:10 web01 postfix/smtpd[5100]: disconnect from unknown[203.0.113.66] ehlo=1 auth=0/6 commands=1/7
+Oct 15 08:57:00 web01 postfix/smtpd[5101]: NOQUEUE: reject: RCPT from spam.example[192.0.2.55]: 554 5.7.1 Service unavailable; Client host [192.0.2.55] blocked using zen.spamhaus.org; from=<x@spam.example> to=<alice@example.com> proto=ESMTP helo=<spam.example>
+Oct 15 08:58:00 web01 postfix/smtp[5110]: 4F2A11C0E3: to=<bob@partner.example>, relay=mx.partner.example[198.51.100.70]:25, delay=1.2, dsn=2.0.0, status=sent (250 2.0.0 OK)
+Oct 15 08:58:30 web01 postfix/smtp[5111]: 5A3B22D1F4: to=<nobody@gone.example>, relay=none, delay=30, dsn=5.1.2, status=bounced (Host or domain name not found)
+Oct 15 08:59:00 web01 dovecot[700]: imap-login: Disconnected (auth failed, 3 attempts in 12 secs): user=<alice>, method=PLAIN, rip=203.0.113.77, lip=10.0.0.5, TLS, session=<abc>
+Oct 15 08:59:30 web01 dovecot[700]: imap-login: Login: user=<alice>, method=PLAIN, rip=198.51.100.40, lip=10.0.0.5, mpid=7001, TLS, session=<def>
+Oct 15 09:00:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:00:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:00:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 09:01:00 web01 fail2ban.actions[900]: NOTICE  [sshd] Ban 203.0.113.66
+Oct 15 09:02:00 web01 systemd-logind[640]: Removed session 12.
+Oct 15 09:03:00 web01 web01-app[3333]: Something happened that no rule knows about, but it is still shown.
+Oct 15 09:10:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:10:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:10:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 09:20:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:20:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:20:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 09:30:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:30:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:30:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 09:40:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:40:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:40:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 15 09:50:00 web01 CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 09:50:01 web01 CRON[2202]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 15 09:50:02 web01 CRON[2201]: pam_unix(cron:session): session closed for user root
