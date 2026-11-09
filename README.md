@@ -28,26 +28,13 @@ Google Cloud audit logs, Kubernetes audit log, Wazuh / OSSEC alerts.
 The `.evtx` reader (`src/evtx.ts`) decodes the binary Windows event log format
 (chunks, BinXML templates and substitutions) in the browser.
 
-## Run locally
+## How to use it
 
-Requires Python 3.11+.
+Use the official online version: https://logs.cyberkit.me
 
-```bash
-git clone https://github.com/nwhta/cyberkit-log-analyzer.git
-cd cyberkit-log-analyzer
-python -m venv .venv
-.venv\Scripts\activate          # Linux / macOS: source .venv/bin/activate
-pip install -r requirements.txt
-python main.py                  # opens http://127.0.0.1:8000
-```
-
-Compiled JavaScript (`scriptsJS/`) is included, so Node.js is not needed to run it.
-If you change the TypeScript in `src/`, rebuild:
-
-```bash
-npm install
-npx tsc
-```
+This repository is published so that anyone can read the code and check how it works —
+in particular, that your log files are analyzed in the browser and never uploaded.
+Building or running the Software from this source code requires written permission (see [LICENSE](LICENSE)).
 
 ## Project structure
 
@@ -64,24 +51,25 @@ static/demo/       demo logs (synthetic data, no real systems)
 tools/             scripts that generate the demo logs
 ```
 
-## Self-hosted vs online version
+## Public code vs online version
 
-This repository is a lighter, self-hosted version. The online version at
+This repository is a lighter copy of the code. The online version at
 https://logs.cyberkit.me is part of the CyberKit platform and has extra features
 and server-side parts that are not published here.
 
 ## License
 
-This project is **source-available** (not open source) under the
-[PolyForm Noncommercial License 1.0.0](LICENSE).
+**Source-available, not open source** — the [CyberKit Source-Available License](LICENSE),
+the same license as every CyberKit project (explained at https://cyberkit.me/license.html).
 
-- ✅ Free for personal use, learning, research and non-profit organizations
-- ❌ Commercial use (including use inside a company, or hosting it as a paid service) is not allowed without a commercial license
+- ✅ Allowed: reading and reviewing the code, including security research
+- ✅ Allowed: using the official version at https://logs.cyberkit.me for personal use, learning, teaching and non-profit organizations
+- ❌ Not allowed without written permission: copying, changing or running the code yourself, and any business use (inside a company, for clients, or as paid work)
 
-💼 **Need a commercial license?** Open an issue or contact me through GitHub.
+💼 **Need a business license?** Write through https://cyberkit.me/feedback.html
 
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/nwhta/cyberkit-log-analyzer/issues) — every comment helps.
 
-☕ Like the project? [Buy me a coffee](https://ko-fi.com/J1G528T467)
+♥ Like the project? [Support CyberKit on PayPal](https://paypal.me/raarkil)
